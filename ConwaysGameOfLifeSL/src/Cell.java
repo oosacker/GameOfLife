@@ -3,7 +3,6 @@
  * @description:
  * @author: Zong Shi
  * @create 2019-08-13 12:58
- * 
  */
 
 public class Cell {
@@ -12,7 +11,7 @@ public class Cell {
   boolean currentStatus;
   boolean nextStatus;
 
-  public Cell(int x, int y, boolean currentStatus, boolean nextStatus) {
+  public Cell(int y, int x, boolean currentStatus, boolean nextStatus) {
     this.x = x;
     this.y = y;
     this.currentStatus = currentStatus;
