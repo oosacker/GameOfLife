@@ -57,7 +57,7 @@ public class DynamicArray {
 			}
 		}
 	}
-/////
+////////
 	public Cell[][] extend() {
 
 		Cell[][] arr = new Cell[(arrIni.length)*2][(arrIni.length)*2];
