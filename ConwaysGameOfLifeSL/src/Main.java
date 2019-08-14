@@ -1,5 +1,11 @@
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Test code for the Game of Life - uses console to display the cells.
+ * 
+ * @author Zong Shi, Natsuki Hasegawa
+ *
+ */
 public class Main {
 
 

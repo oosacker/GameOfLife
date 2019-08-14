@@ -1,7 +1,7 @@
 /**
  * @program DynamicArray
  * @description:
- * @author: Zong Shi
+ * @author: Zong Shi, Natsuki Hasegawa
  * @create 2019-08-13 12:58
  */
 
@@ -25,10 +25,7 @@ public class Cell {
     this.nextStatus = nextStatus;
   }
 
-  /**
-   * 
-   * @return Returns the 
-   */
+
   public boolean getCurrentStatus() {
     return currentStatus;
   }

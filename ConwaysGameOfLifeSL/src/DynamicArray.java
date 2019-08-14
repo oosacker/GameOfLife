@@ -1,6 +1,6 @@
 
 /**
- * DynamicArray
+ * DynamicArray - logic code for the Game of Life.
  * 
  * @author: Zong Shi, Natsuki Hasegawa
  * @version: 1.0
