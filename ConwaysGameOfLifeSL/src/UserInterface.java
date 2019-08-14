@@ -1,4 +1,3 @@
-
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.animation.TimelineBuilder;
@@ -22,7 +21,6 @@ import javafx.geometry.Insets;
 /**
  * User interface class showing employing JavaFX and fetching data from backend.
  * 
- * 13Aug19
  * 
  * @author Lock, Samuel; Bollineni Dharani,
  * @contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com
@@ -37,12 +35,13 @@ import javafx.geometry.Insets;
 // TODO CLEAR ALL RECTANGLES, then crceate new rectnalges based on current
 // position.
 
+
 public class UserInterface extends Application {
 
 	/**
 	 * Defines the speed of the starting animation
 	 */
-	private int worldSpeed = 16;
+	private int worldSpeed = 100;
 	/**
 	 * Controls whether world is running or stopped.
 	 */
@@ -62,7 +61,7 @@ public class UserInterface extends Application {
 
 		VBox bottomPane = new VBox(); // CreAteS MAIN VERTICAL BOX
 		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.
-		
+		createSecondLayer(secondPane);
 		secondPane.getChildren().add(menuBox); // ADDS MENU TO MAIN VERTICAL BOX
 		secondPane.getChildren().add(lifeGrid); // Adds lifegrid to bottompane beneath menu box
 		
@@ -162,6 +161,12 @@ public class UserInterface extends Application {
 
 		// TODO SET SPACING PADDING, BUTTON WIDTH
 	}
+	
+	public void createSecondLayer(HBox s) {
+		s.setPadding( new Insets(15));
+	}
+
+	
 
 	/**
 	 * 

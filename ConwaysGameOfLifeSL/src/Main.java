@@ -13,6 +13,10 @@ public class Main {
 		System.out.println(" ");
 	}
 
+	/**
+	 * 
+	 * @param testArr
+	 */
 	public static void print2(Cell[][] testArr){
 		for(int i=0; i<testArr.length; i++) {
 

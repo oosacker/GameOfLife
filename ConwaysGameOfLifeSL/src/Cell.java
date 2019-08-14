@@ -5,17 +5,19 @@
  * @create 2019-08-13 12:58
  */
 
-/**
- * 
- * @author apple
- *
- */
 public class Cell {
   int x;
   int y;
   boolean currentStatus;
   boolean nextStatus;
 
+  /**
+   * Creates a new cell object.
+   * @param y y position.
+   * @param x x position.
+   * @param currentStatus Whether if cell is currently alive or not.
+   * @param nextStatus Whether if cell will  alive or not in the next state.
+   */
   public Cell(int y, int x, boolean currentStatus, boolean nextStatus) {
     this.x = x;
     this.y = y;
@@ -23,6 +25,10 @@ public class Cell {
     this.nextStatus = nextStatus;
   }
 
+  /**
+   * 
+   * @return Returns the 
+   */
   public boolean getCurrentStatus() {
     return currentStatus;
   }
