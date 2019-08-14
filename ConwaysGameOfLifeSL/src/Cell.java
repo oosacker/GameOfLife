@@ -1,30 +1,30 @@
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+
 /**
  * @program DynamicArray
  * @description:
- * @author: Zong Shi, Natsuki Hasegawa
+ * @author: Zong Shi
  * @create 2019-08-13 12:58
  */
-
-public class Cell {
+public class Cell extends Rectangle{
   int x;
   int y;
   boolean currentStatus;
   boolean nextStatus;
+  Rectangle r;
 
-  /**
-   * Creates a new cell object.
-   * @param y y position.
-   * @param x x position.
-   * @param currentStatus Whether if cell is currently alive or not.
-   * @param nextStatus Whether if cell will  alive or not in the next state.
-   */
   public Cell(int y, int x, boolean currentStatus, boolean nextStatus) {
     this.x = x;
     this.y = y;
     this.currentStatus = currentStatus;
     this.nextStatus = nextStatus;
+    r = new Rectangle();
+    r.setHeight(10);
+    r.setWidth(10);
+   
+    
   }
-
 
   public boolean getCurrentStatus() {
     return currentStatus;
@@ -42,7 +42,7 @@ public class Cell {
     this.nextStatus = nextStatus;
   }
 
-  public int getX() {
+  public int getXx() {
     return x;
   }
 
@@ -50,12 +50,21 @@ public class Cell {
     this.x = x;
   }
 
-  public int getY() {
+  public int getYy() {
     return y;
   }
 
   public void setY(int y) {
     this.y = y;
   }
+  
+  public Rectangle getRect() {
+	  if (currentStatus == false) {
+		  r.setFill(Color.BURLYWOOD);
+		  return r;
+	  } else {
+		  r.setFill(Color.LIGHTBLUE);
+		  return r;
+	  }
+  }
 }
-    

@@ -214,8 +214,8 @@ public class DynamicArray {
 	public int checkNeighbor(Cell c)
 	{
 		int counter = 0;
-		int cellx = c.getX();
-		int celly = c.getY();
+		int cellx = c.getXx();
+		int celly = c.getYy();
 
 
 		//check right side

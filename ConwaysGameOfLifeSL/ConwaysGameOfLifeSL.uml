@@ -4,7 +4,14 @@
     <eAnnotations xmi:id="_YDO-ML5HEemAFunI8rPp5w" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_YDPlQL5HEemAFunI8rPp5w" source="codegen">
         <details xmi:id="_YDPlQb5HEemAFunI8rPp5w" key="codegenDirectory" value="/ConwaysGameOfLifeSL/src"/>
-        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;3149882713/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;2349499896/1;/ConwaysGameOfLifeSL/src/Main.java;3769778482/1;/ConwaysGameOfLifeSL/src/UserInterface.java;3424999710/1;"/>
+        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;1292448608/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;1587127689/1;/ConwaysGameOfLifeSL/src/Main.java;1635802912/1;/ConwaysGameOfLifeSL/src/UserInterface.java;1290335171/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5woL7jEem8QL0Ty-Eieg" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5wob7jEem8QL0Ty-Eieg" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_MF5wor7jEem8QL0Ty-Eieg" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_MF5wo77jEem8QL0Ty-Eieg" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+          <details xmi:id="_MF5wpL7jEem8QL0Ty-Eieg" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+        </contents>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_YPn0YL5HEemAFunI8rPp5w">
@@ -52,6 +59,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YPOy0L5HEemAFunI8rPp5w" name="application">
         <packagedElement xmi:type="uml:Class" xmi:id="_YQ1VUb5HEemAFunI8rPp5w" name="Application"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jT350L7oEem8QL0Ty-Eieg" name="Platform"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YPOy0b5HEemAFunI8rPp5w" name="event">
         <packagedElement xmi:type="uml:Class" xmi:id="_YQ2jcb5HEemAFunI8rPp5w" name="ActionEvent"/>
@@ -80,6 +88,9 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_YRBikb5HEemAFunI8rPp5w" name="Text"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_YQ5mwb5HEemAFunI8rPp5w" name="Scene"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jTkX0L7oEem8QL0Ty-Eieg" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jT5H8L7oEem8QL0Ty-Eieg" name="Image"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YPQoAL5HEemAFunI8rPp5w" name="stage">
         <packagedElement xmi:type="uml:Class" xmi:id="_YRCwsb5HEemAFunI8rPp5w" name="Stage"/>
@@ -89,11 +100,13 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YPi74L5HEemAFunI8rPp5w" name="Cell">
-      <ownedComment xmi:id="_YRrC0L5HEemAFunI8rPp5w">
-        <body>
-@author apple
- *</body>
+      <ownedComment xmi:id="_IlxYIL7rEem8QL0Ty-Eieg">
+        <body>@program DynamicArray
+@description:
+@author: Zong Shi
+@create 2019-08-13 12:58</body>
       </ownedComment>
+      <generalization xmi:id="_q5eZRL7oEem8QL0Ty-Eieg" general="_YRAUcb5HEemAFunI8rPp5w"/>
       <ownedAttribute xmi:id="_YRSoUL5HEemAFunI8rPp5w" name="x" visibility="package">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
@@ -106,6 +119,7 @@
       <ownedAttribute xmi:id="_YRVEkL5HEemAFunI8rPp5w" name="nextStatus" visibility="package">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_q5jRwL7oEem8QL0Ty-Eieg" name="r" visibility="package" type="_YRAUcb5HEemAFunI8rPp5w" association="_q5m8IL7oEem8QL0Ty-Eieg"/>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRhR0L5HEemAFunI8rPp5w" name="Cell" specification="_YPq3sL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRh44L5HEemAFunI8rPp5w" name="y">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -119,16 +133,24 @@
         <ownedParameter xmi:id="_YRh4475HEemAFunI8rPp5w" name="nextStatus">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_YRh45L5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return"/>
+        <ownedParameter xmi:id="_YRh45L5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>this.x = x;
  this.y = y;
  this.currentStatus = currentStatus;
  this.nextStatus = nextStatus;
+ r = new Rectangle();
+ r.setHeight(10);
+ r.setWidth(10);
+
+ 
   </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRk8ML5HEemAFunI8rPp5w" name="getCurrentStatus" specification="_YPvwML5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRk8Mb5HEemAFunI8rPp5w" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
         <language>java</language>
@@ -145,6 +167,7 @@
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRljQL5HEemAFunI8rPp5w" name="getNextStatus" specification="_YPw-UL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRljQb5HEemAFunI8rPp5w" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
         <language>java</language>
@@ -159,14 +182,6 @@
         <body>this.nextStatus = nextStatus;
   </body>
       </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRljRL5HEemAFunI8rPp5w" name="getX" specification="_YPxlYr5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRljRb5HEemAFunI8rPp5w" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedParameter>
-        <language>java</language>
-        <body>return x;
-  </body>
-      </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRljRr5HEemAFunI8rPp5w" name="setX" specification="_YPyMcb5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRljR75HEemAFunI8rPp5w" name="x">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -175,20 +190,44 @@
         <body>this.x = x;
   </body>
       </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRmKUL5HEemAFunI8rPp5w" name="getY" specification="_YPyzgL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRmKUb5HEemAFunI8rPp5w" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedParameter>
-        <language>java</language>
-        <body>return y;
-  </body>
-      </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRmKUr5HEemAFunI8rPp5w" name="setY" specification="_YPzakL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRmKU75HEemAFunI8rPp5w" name="y">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
         <language>java</language>
         <body>this.y = y;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_q5kf4L7oEem8QL0Ty-Eieg" name="getXx" specification="_q5eZQL7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5kf4b7oEem8QL0Ty-Eieg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return x;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_q5lG8L7oEem8QL0Ty-Eieg" name="getYy" specification="_q5eZQb7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5lG8b7oEem8QL0Ty-Eieg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return y;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_q5lG8r7oEem8QL0Ty-Eieg" name="getRect" specification="_q5eZQr7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5lG877oEem8QL0Ty-Eieg" type="_YRAUcb5HEemAFunI8rPp5w" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (currentStatus == false) {
+		  r.setFill(Color.BURLYWOOD);
+		  return r;
+	  } else {
+		  r.setFill(Color.LIGHTBLUE);
+		  return r;
+	  }
   </body>
       </ownedBehavior>
       <ownedOperation xmi:id="_YPq3sL5HEemAFunI8rPp5w" name="Cell" method="_YRhR0L5HEemAFunI8rPp5w">
@@ -229,18 +268,8 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_YPxlYr5HEemAFunI8rPp5w" name="getX" method="_YRljRL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YPyMcL5HEemAFunI8rPp5w" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_YPyMcb5HEemAFunI8rPp5w" name="setX" method="_YRljRr5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YPyMcr5HEemAFunI8rPp5w" name="x">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_YPyzgL5HEemAFunI8rPp5w" name="getY" method="_YRmKUL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YPyzgb5HEemAFunI8rPp5w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
@@ -249,13 +278,26 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_q5eZQL7oEem8QL0Ty-Eieg" name="getXx" method="_q5kf4L7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5hckL7oEem8QL0Ty-Eieg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q5eZQb7oEem8QL0Ty-Eieg" name="getYy" method="_q5lG8L7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5hckb7oEem8QL0Ty-Eieg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q5eZQr7oEem8QL0Ty-Eieg" name="getRect" method="_q5lG8r7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_q5eZQ77oEem8QL0Ty-Eieg" type="_YRAUcb5HEemAFunI8rPp5w" direction="return"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YP1PwL5HEemAFunI8rPp5w" name="DynamicArray">
-      <ownedComment xmi:id="_Jct1ML5REemAFunI8rPp5w">
-        <body>@program DynamicArray
-@description:
+      <ownedComment xmi:id="_yqzAgL7oEem8QL0Ty-Eieg">
+        <body>DynamicArray - logic code for the Game of Life.
+
 @author: Zong Shi, Natsuki Hasegawa
-@create 2019-08-13 11:29</body>
+@version: 1.0</body>
       </ownedComment>
       <ownedAttribute xmi:id="_YRVroL5HEemAFunI8rPp5w" name="num" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -277,91 +319,26 @@
         </ownedParameter>
         <language>java</language>
         <body>arrIni= new Cell[num][num];
-		
-		arrIni = fillArrayWithDead(arrIni);
-		
-		
-		//blinker:
-//		arrIni[3][3].setCurrentStatus(true);
-//		arrIni[3][4].setCurrentStatus(true);
-//		arrIni[3][5].setCurrentStatus(true);
-		
-		/*
-		//Toad: 
-		arrIni[2][2].setCurrentStatus(true);
-	    arrIni[2][3].setCurrentStatus(true);
-	    arrIni[2][4].setCurrentStatus(true);
-	    arrIni[3][1].setCurrentStatus(true);
-	    arrIni[3][2].setCurrentStatus(true);
-	    arrIni[3][2].setCurrentStatus(true);
-	    arrIni[3][3].setCurrentStatus(true);
-		*/
-		
-		/*
-	    //hershel
-	    arrIni[3][3].setCurrentStatus(true);
-	    arrIni[4][3].setCurrentStatus(true);
-	    arrIni[4][4].setCurrentStatus(true);
-	    arrIni[4][5].setCurrentStatus(true);
-	    arrIni[5][3].setCurrentStatus(true);
-	    arrIni[5][5].setCurrentStatus(true);
-	    arrIni[6][5].setCurrentStatus(true);
-	    */
-		
-//		arrIni[2][2].setCurrentStatus(true);
-//	    arrIni[2][3].setCurrentStatus(true);
-//	    arrIni[2][4].setCurrentStatus(true);
-//	    arrIni[2][7].setCurrentStatus(true);
-//	    arrIni[2][8].setCurrentStatus(true);
-		
-		
-		//spaceship:
+		for (int i = 0; i &lt; arrIni.length; i++) {
+			for (int j = 0; j &lt; arrIni.length; j++) {
+				arrIni[i][j] = new Cell(i, j, false, false);
+			}
+		}
+
+		arrIni[2][4].setCurrentStatus(true);
 		arrIni[3][3].setCurrentStatus(true);
 		arrIni[3][4].setCurrentStatus(true);
 		arrIni[3][5].setCurrentStatus(true);
-		arrIni[3][6].setCurrentStatus(true);
-		arrIni[3][7].setCurrentStatus(true);
-		arrIni[3][8].setCurrentStatus(true);
-		arrIni[4][2].setCurrentStatus(true);
-		arrIni[4][8].setCurrentStatus(true);
-		arrIni[5][8].setCurrentStatus(true);
-		arrIni[6][2].setCurrentStatus(true);
-		arrIni[6][7].setCurrentStatus(true);
-		arrIni[7][4].setCurrentStatus(true);
-		arrIni[7][5].setCurrentStatus(true);
-		
-		
-		/*
-		//r-pentomino
+		arrIni[4][3].setCurrentStatus(true);
 		arrIni[4][5].setCurrentStatus(true);
-		arrIni[4][6].setCurrentStatus(true);
 		arrIni[5][4].setCurrentStatus(true);
-		arrIni[5][5].setCurrentStatus(true);
-		arrIni[6][5].setCurrentStatus(true);
-		*/
-		
-		/*
-		// line:
-		arrIni[3][2].setCurrentStatus(true);
-		arrIni[3][3].setCurrentStatus(true);
-		arrIni[3][4].setCurrentStatus(true);
-		arrIni[3][5].setCurrentStatus(true);
-		arrIni[3][6].setCurrentStatus(true);
-		arrIni[3][7].setCurrentStatus(true);
-		*/
-		
 
 	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRmxYL5HEemAFunI8rPp5w" name="extendsArray" specification="_YP3sAL5HEemAFunI8rPp5w">
         <language>java</language>
         <body>for (int i = 1; i &lt; arrIni.length-1; i++) {
-			if (
-					arrIni[i][1].getCurrentStatus() == true || 
-					arrIni[1][i].getCurrentStatus() == true || 
-					arrIni[arrIni.length - 2][i].getCurrentStatus() == true || 
-					arrIni[i][arrIni.length - 2].getCurrentStatus() == true) {
-
+			if (arrIni[i][1].getCurrentStatus() == true || arrIni[1][i].getCurrentStatus() == true || arrIni[arrIni.length - 2][i].getCurrentStatus() == true || arrIni[i][arrIni.length - 2].getCurrentStatus() == true) {
 				Cell[][] temp = extend();
 				arrIni = temp; 
 				break;
@@ -376,17 +353,17 @@
         </ownedParameter>
         <language>java</language>
         <body>Cell[][] arr = new Cell[(arrIni.length)*2][(arrIni.length)*2];
+		for(int i = 0; i&lt;arr.length;i++){
+			for(int j = 0; j&lt;arr.length; j++){
+				arr[i][j] = new Cell(i,j,false,false);
+			}
+		}
 
-		arr = fillArrayWithDead(arr);
-
-		for(int i = scale; i&lt;arr.length-scale; i++){
-			for(int j = scale; j&lt;arr.length-scale; j++)
+		for(int i = scale; i&lt;arr.length-scale;i++){
+			for(int j = scale; j&lt;arr.length-scale;j++)
 			{
-				boolean currentstate = arrIni[i-scale][j-scale].getCurrentStatus();
-				boolean nextstate = arrIni[i-scale][j-scale].getNextStatus();
-				
-				arr[i][j].setCurrentStatus(currentstate);
-				arr[i][j].setNextStatus(nextstate);
+				arr[i][j].setCurrentStatus(arrIni[i-scale][j-scale].getCurrentStatus());
+				arr[i][j].setNextStatus(arrIni[i-scale][j-scale].getNextStatus());
 			}
 
 		}
@@ -395,40 +372,26 @@
 		return arr;
 	</body>
       </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRmxZL5HEemAFunI8rPp5w" name="fillArrayWithDead" specification="_YQpvIL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRmxZb5HEemAFunI8rPp5w" name="input" type="_YPi74L5HEemAFunI8rPp5w">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YRmxZr5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_YRmxZ75HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
-          <name xsi:nil="true"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YRmxaL5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-        <language>java</language>
-        <body>for(int i = 0; i&lt;input.length;i++){
-			for(int j = 0; j&lt;input.length; j++){
-				input[i][j] = new Cell(i, j, false, false);
-			}
-		}
-		return input;
-
-	</body>
-      </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRnYcL5HEemAFunI8rPp5w" name="updateStatus" specification="_YP6IQL5HEemAFunI8rPp5w">
         <language>java</language>
         <body>for(int i=1;i&lt;arrIni.length-1;i++) {
-			
 			for(int j=1;j&lt;arrIni.length-1;j++) {
-				
 				Cell c = arrIni[i][j];
-				
 				int counter = checkNeighbor(c);
-				
-				if(c.getCurrentStatus()==true){
-					if(counter==2||counter==3){
+
+				if(c.getCurrentStatus()==true)
+				{
+
+					if(counter==2||counter==3)
+					{
 						c.setNextStatus(true);
+
 					}
+
+
 				}
-				else if(c.getCurrentStatus()==false){
+				else if(c.getCurrentStatus()==false)
+				{
 					if(counter==3) {
 						c.setNextStatus(true);
 					}
@@ -450,14 +413,11 @@
         </ownedParameter>
         <language>java</language>
         <body>Cell[][] tempNextGen = arr;
-		
-		for(int i=1;i&lt;tempNextGen.length-1;i++) {
-			for(int j=1;j&lt;tempNextGen.length-1;j++) {
-				
+		for(int i=1; i&lt;tempNextGen.length-1; i++) {
+			for(int j=1; j&lt;tempNextGen.length-1; j++) {
 				Cell c = tempNextGen[i][j];
 				c.setCurrentStatus(c.getNextStatus());
 				c.setNextStatus(false);
-				
 			}
 		}
 		return tempNextGen;
@@ -471,14 +431,14 @@
         </ownedParameter>
         <language>java</language>
         <body>int counter = 0;
-		int cellx = c.getX();
-		int celly = c.getY();
+		int cellx = c.getXx();
+		int celly = c.getYy();
+
 
 		//check right side
 		if(arrIni[celly][cellx+1].getCurrentStatus()==true) {
 			counter++;
 		}
-		
 		//check top right side
 		if(arrIni[celly-1][cellx+1].getCurrentStatus()==true) {
 			counter++;
@@ -518,76 +478,71 @@
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRnYeb5HEemAFunI8rPp5w" name="shrinkArray" specification="_YP7WYL5HEemAFunI8rPp5w">
         <language>java</language>
-        <body>System.out.println(&quot;Shrinking run&quot;);
-	   boolean flag = false;
-	   int length = arrIni.length;
-	  
-	   //checking the right part alive cells
-	   tag1:
-	   for(int i=0;i&lt;length;i++)
-	   {
-	    for(int j = length -scale/2; j&lt;length; j++)
-	    {
-	     if(arrIni[i][j].getCurrentStatus()==true)
-	     {
-	      flag = true;
-	      System.out.println(&quot;test1&quot;);
-	      break tag1;
-	     }
-	    }
-	   }
-	   
-	   //checking the left part alive cells
-	   tag2:
-	   for(int i=0; i&lt;length; i++) {
-	    for(int j=0; j&lt;scale/2+1; j++)
-	    {
-	     if(arrIni[i][j].getCurrentStatus()==true)
-	     {
-	      flag = true;
-	      System.out.println(&quot;test2&quot;);
-	      break tag2;
-	      
-	     }
-	    }
-	   }
-	   
-	   //checking the top part alive cells
-	   tag3:
-	   for(int i = 0; i&lt;scale/2+1;i++)
-	   {
-	    for(int j = 0; j&lt;length; j++)
-	    {
-	     if(arrIni[i][j].getCurrentStatus()==true)
-	     {
-	      flag = true;
-	      System.out.println(&quot;test3&quot;);
-	      break tag3;
-	     }
-	    }
-	   }
-	   
-	   //checking the bottom part alive cells
-	   tag4:
-	   for(int i = length-scale/2; i&lt;length ; i++)
-	   {
-	    for(int j = 0; j&lt;length ; j++)
-	    {
-	     if(arrIni[i][j].getCurrentStatus()==true)
-	     {
-	      flag = true;
-	      System.out.println(&quot;test4&quot;);
-	      break tag4;
-	     }
-	    }
-	   }
-	   
-	   if(flag == false)
-	   {
-	    Cell[][] temp = shrink();
-	    arrIni = temp;
-	   }
-	  </body>
+        <body>boolean flag = false;
+		int length = arrIni.length;
+
+		//checking the right part alive cells
+		tag1:
+			for(int i=0;i&lt;length;i++)
+			{
+				for(int j = length -scale/2; j&lt;length; j++)
+				{
+					if(arrIni[i][j].getCurrentStatus()==true)
+					{
+						flag = true;
+						break tag1;
+					}
+				}
+			}
+
+		//checking the left part alive cells
+		tag2:
+			for(int i=0; i&lt;length; i++) {
+				for(int j=0; j&lt;scale/2+1; j++)
+				{
+					if(arrIni[i][j].getCurrentStatus()==true)
+					{
+						flag = true;
+						break tag2;
+
+					}
+				}
+			}
+
+			//checking the top part alive cells
+			tag3:
+				for(int i = 0; i&lt;scale/2+1;i++)
+				{
+					for(int j = 0; j&lt;length; j++)
+					{
+						if(arrIni[i][j].getCurrentStatus()==true)
+						{
+							flag = true;
+							break tag3;
+						}
+					}
+				}
+
+			//checking the bottom part alive cells
+			tag4:
+				for(int i = length-scale/2; i&lt;length ; i++)
+				{
+					for(int j = 0; j&lt;length ; j++)
+					{
+						if(arrIni[i][j].getCurrentStatus()==true)
+						{
+							flag = true;
+							break tag4;
+						}
+					}
+				}
+
+				if(flag == false)
+				{
+					Cell[][] temp = shrink();
+					arrIni = temp;
+				}
+	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRn_gL5HEemAFunI8rPp5w" name="shrink" specification="_YP7WYb5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRn_gb5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
@@ -596,26 +551,26 @@
         </ownedParameter>
         <language>java</language>
         <body>Cell[][] cellShrink = new Cell[arrIni.length/2][arrIni.length/2];
-	   for(int i = 0; i &lt; arrIni.length/2; i++)
-	   {
-	    for(int j=0; j&lt;arrIni.length/2; j++)
-	    {
-	     cellShrink[i][j] = new Cell(i,j,false,false);
-	    }
-	   }
-	   
-	   for(int i = scale/2; i&lt; arrIni.length-scale/2; i++)
-	   {
-	    for(int j = scale/2 ; j&lt; arrIni.length-scale/2;j++)
-	    {
-	     cellShrink[i-scale/2][j-scale/2].setCurrentStatus(arrIni[i][j].getCurrentStatus());
-	     cellShrink[i-scale/2][j-scale/2].setNextStatus(arrIni[i][j].getNextStatus());
-	    }
-	   }
-	   scale = scale/2;
-	   
-	   return cellShrink;
-	  </body>
+		for(int i = 0; i &lt; arrIni.length/2; i++)
+		{
+			for(int j=0; j&lt;arrIni.length/2; j++)
+			{
+				cellShrink[i][j] = new Cell(i,j,false,false);
+			}
+		}
+
+		for(int i = scale/2; i&lt; arrIni.length-scale/2; i++)
+		{
+			for(int j = scale/2 ; j&lt; arrIni.length-scale/2;j++)
+			{
+				cellShrink[i-scale/2][j-scale/2].setCurrentStatus(arrIni[i][j].getCurrentStatus());
+				cellShrink[i-scale/2][j-scale/2].setNextStatus(arrIni[i][j].getNextStatus());
+			}
+		}
+		scale = scale/2;
+
+		return cellShrink;
+	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRn_g75HEemAFunI8rPp5w" name="swapArr" specification="_YP8kgL5HEemAFunI8rPp5w">
         <language>java</language>
@@ -665,87 +620,94 @@
         <ownedParameter xmi:id="_YP3E875HEemAFunI8rPp5w" type="_YP1PwL5HEemAFunI8rPp5w" direction="return"/>
       </ownedOperation>
       <ownedOperation xmi:id="_YP3sAL5HEemAFunI8rPp5w" name="extendsArray" method="_YRmxYL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1Mb5REemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznkL7oEem8QL0Ty-Eieg">
           <body>
-	 * @Title：extendsArray 
-	 * @Description：This method will double the size of 2D array in case any live cell existing in the row/column which is next to the boundary of 2D array.
-	 * @param ： 
-	 * @return ：void 
-	 * @throws</body>
+	 * This method doubles the size of the 2D array in case a live cell exists in the row/column which is next to the boundary of 2D array. We start the loop from i = 1 and end by arrIni.length-1, because the design will not set live cell to the position next to the boundary.</body>
         </ownedComment>
       </ownedOperation>
       <ownedOperation xmi:id="_YP3sAb5HEemAFunI8rPp5w" name="extend" method="_YRmxYb5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznkr7oEem8QL0Ty-Eieg">
+          <body>This method creates an empty array that is double the size of the current 2D array. The current 2D array will be placed in the center part of the extended array. This method will return the double sized array.
+	 * @return arr the extended cell array.</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP3sAr5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YP4TEL5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YP6IQL5HEemAFunI8rPp5w" name="updateStatus" method="_YRnYcL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1M75REemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznk77oEem8QL0Ty-Eieg">
           <body>
-	 * @Title：updateStatus 
-	 * @Description：This method is to update nextStatus of each cell.
-	 * @param ： 
-	 * @return ：void 
-	 * @throws</body>
+	 * This method updates the nextStatus of each cell. Only cells that will be alive in the next iteration will be updated, as the default setting of nextStatus is &quot;false&quot;.
+	 *</body>
         </ownedComment>
       </ownedOperation>
-      <ownedOperation xmi:id="_YP7WYL5HEemAFunI8rPp5w" name="shrinkArray" method="_YRnYeb5HEemAFunI8rPp5w"/>
+      <ownedOperation xmi:id="_YP7WYL5HEemAFunI8rPp5w" name="shrinkArray" method="_YRnYeb5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznkb7oEem8QL0Ty-Eieg">
+          <body>This method will check the top/bottom/right/left part of current array, if no live cells exist within scale/2 to the 2D array boundary, current array will shrink to half size and replace the current 2D array.</body>
+        </ownedComment>
+      </ownedOperation>
       <ownedOperation xmi:id="_YP7WYb5HEemAFunI8rPp5w" name="shrink" method="_YRn_gL5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznlr7oEem8QL0Ty-Eieg">
+          <body>This method will check the top/bottom/right/left part of the current array. If no live cells exist within scale/2 to the 2D array boundary, the current array will shrink to half size and replace the current 2D array.
+	 * @return cellShrink Shrunken cell array.</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP7WYr5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YP79cL5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YP8kgL5HEemAFunI8rPp5w" name="swapArr" method="_YRn_g75HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1Nr5REemAFunI8rPp5w">
-          <body>
-	 * @Title：swapArr 
-	 * @Description：This method will update initial array to present next generation of life.
-	 * @param ： 
-	 * @return ：void 
-	 * @throws</body>
+        <ownedComment xmi:id="_yqznl77oEem8QL0Ty-Eieg">
+          <body> 
+	 * This method will update the initial array to represent the next generation of life.
+	 *</body>
         </ownedComment>
       </ownedOperation>
       <ownedOperation xmi:id="_YP8kgb5HEemAFunI8rPp5w" name="getArr" method="_YRn_hL5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznmL7oEem8QL0Ty-Eieg">
+          <body>
+	 * Returns the data array to the GUI.
+	 * @return arrIni Data array arrIni.
+	 *</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP8kgr5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YP9LkL5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YP9yoL5HEemAFunI8rPp5w" name="getNextArr" method="_YRn_h75HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznmb7oEem8QL0Ty-Eieg">
+          <body>Returns the next state array.
+	 * @return arrNext Next state array.
+	 *</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP9yob5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YP9yor5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YP-ZsL5HEemAFunI8rPp5w" name="getScale" method="_YRomkL5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznmr7oEem8QL0Ty-Eieg">
+          <body>Returns the scale factor.
+	 * @return scale Scale factor.</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP-Zsb5HEemAFunI8rPp5w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YP_AwL5HEemAFunI8rPp5w" name="getNum" method="_YRomkr5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznm77oEem8QL0Ty-Eieg">
+          <body>Returns the array size.
+	 * @return num Array size.</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YP_Awb5HEemAFunI8rPp5w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_YQpvIL5HEemAFunI8rPp5w" name="fillArrayWithDead" method="_YRmxZL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1Mr5REemAFunI8rPp5w">
-          <body>Fill array with dead cells for initialisation
-	 * @return</body>
-        </ownedComment>
-        <ownedParameter xmi:id="_YQpvIb5HEemAFunI8rPp5w" name="input" type="_YPi74L5HEemAFunI8rPp5w">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQq9QL5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_YQpvIr5HEemAFunI8rPp5w" type="_YPi74L5HEemAFunI8rPp5w" direction="return">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQqWML5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_YQq9Qr5HEemAFunI8rPp5w" name="nextGenArray" method="_YRnYcb5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1NL5REemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznlL7oEem8QL0Ty-Eieg">
           <body>
-	 * @Title：nextGenArray 
-	 * @Description：This method will create a copy of main 2D array, and it's currentStatus will be replaced by nextStatus, int he meanwhile, the nextStatus will be replaced by &quot;false&quot;. 
-	 * @param ：@param arr
-	 * @param ：@return 
-	 * @return ：Cell[][] 
-	 * @throws</body>
+	 * This method will create a copy of main 2D array, and the currentStatus of each cell will be replaced by its nextStatus. The nextStatus will also be replaced by &quot;false&quot; as default. 
+	 * @param arr Cell array to copy.
+	 * @return tempNextGen Updated cell array.
+	 *</body>
         </ownedComment>
         <ownedParameter xmi:id="_YQrkUL5HEemAFunI8rPp5w" name="arr" type="_YPi74L5HEemAFunI8rPp5w">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQsLYL5HEemAFunI8rPp5w" value="*"/>
@@ -755,14 +717,12 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YQsycL5HEemAFunI8rPp5w" name="checkNeighbor" method="_YRnYdr5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_Jct1Nb5REemAFunI8rPp5w">
+        <ownedComment xmi:id="_yqznlb7oEem8QL0Ty-Eieg">
           <body>
-	 * @Title：checkNeighbor 
-	 * @Description：this method will be used to count how many live cells near the cell. 
-	 * @param ：@param c
-	 * @param ：@return 
-	 * @return ：return number of live cells.
-	 * @throws</body>
+	 * This method is used to count how many live cells are near the input Cell. 
+	 * @param c Cell object to check.
+	 * @return counter Total number of adjacent live cells.
+	 *</body>
         </ownedComment>
         <ownedParameter xmi:id="_YQsycb5HEemAFunI8rPp5w" name="c" type="_YPi74L5HEemAFunI8rPp5w"/>
         <ownedParameter xmi:id="_YQsycr5HEemAFunI8rPp5w" direction="return">
@@ -771,23 +731,15 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YQFHYL5HEemAFunI8rPp5w" name="Main">
+      <ownedComment xmi:id="_8aifcL7sEem8QL0Ty-Eieg">
+        <body>Test code for the Game of Life - uses console to display the cells.
+
+@author Zong Shi, Natsuki Hasegawa
+ *</body>
+      </ownedComment>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRomlL5HEemAFunI8rPp5w" name="print" specification="_YQwc0L5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRomlb5HEemAFunI8rPp5w" name="testArr" type="_YPi74L5HEemAFunI8rPp5w">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YRomlr5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-        <language>java</language>
-        <body>for(int i=0; i&lt;testArr.length; i++) {
-			for(int j = 0; j&lt;testArr.length; j++) {
-				System.out.print(testArr[i][j].getCurrentStatus()+&quot; &quot;);
-			}
-			System.out.println(&quot; &quot;);
-		}
-		System.out.println(&quot; &quot;);
-	</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRpNoL5HEemAFunI8rPp5w" name="print2" specification="_YQxD4r5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRpNob5HEemAFunI8rPp5w" name="testArr" type="_YPi74L5HEemAFunI8rPp5w">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YRpNor5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
         <language>java</language>
         <body>for(int i=0; i&lt;testArr.length; i++) {
@@ -814,7 +766,7 @@
         <language>java</language>
         <body>DynamicArray test = new DynamicArray();
 		Cell[][] testArr = test.getArr();
-		print2(testArr);
+		print(testArr);
 
 		while(true){
 			TimeUnit.MILLISECONDS.sleep(1000);
@@ -823,7 +775,7 @@
 			test.updateStatus();
 			test.swapArr();
 			testArr = test.getArr();
-			print2(testArr);
+			print(testArr);
 			
 			int checkingNum = test.getNum();
 			
@@ -846,14 +798,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQxD4L5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_YQxD4r5HEemAFunI8rPp5w" name="print2" isStatic="true" method="_YRpNoL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YQxq8L5HEemAFunI8rPp5w" name="testArr" type="_YPi74L5HEemAFunI8rPp5w">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQxq8b5HEemAFunI8rPp5w" value="*"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YQJY0L5HEemAFunI8rPp5w" name="UserInterface">
-      <ownedComment xmi:id="_YRrp475HEemAFunI8rPp5w">
+      <ownedComment xmi:id="_cVToYL7sEem8QL0Ty-Eieg">
         <body>User interface class showing employing JavaFX and fetching data from backend.&#xD;
 &#xD;
 &#xD;
@@ -870,84 +817,107 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         <defaultValue xmi:type="uml:LiteralString" xmi:id="_YRYu8b5HEemAFunI8rPp5w" value="false"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_YRZWAL5HEemAFunI8rPp5w" name="rectSize" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        <defaultValue xmi:type="uml:LiteralString" xmi:id="_YRZWAb5HEemAFunI8rPp5w" value="10"/>
-      </ownedAttribute>
+      <ownedAttribute xmi:id="_jT6WEL7oEem8QL0Ty-Eieg" name="dy" visibility="private" isStatic="true" type="_YP1PwL5HEemAFunI8rPp5w" association="_jT8yUL7oEem8QL0Ty-Eieg"/>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRpNpr5HEemAFunI8rPp5w" name="start" specification="_YRPlAL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRpNp75HEemAFunI8rPp5w" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
         <language>java</language>
         <body>// INITIAL ONSCREEN DISPLAY&#xD;
-		Text welcomeText = new Text(); // TODO Do we need this for anything???!&#xD;
-		welcomeText.setText(&quot;Click grid to set square&quot;);&#xD;
-		HBox menuBox = new HBox();&#xD;
+		Text welcomeText = new Text(&quot;Conway's Game of Life&quot;); &#xD;
+		welcomeText.setStyle(&quot;-fx-font: 30 timesnewroman;&quot;);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		VBox menuBox = new VBox();&#xD;
 		createMenu(menuBox);&#xD;
 &#xD;
 		GridPane lifeGrid = new GridPane();&#xD;
-		createGrid(lifeGrid);&#xD;
+		createGridPane(lifeGrid);&#xD;
 &#xD;
-		VBox bottomPane = new VBox(); // CreAteS MAIN VERTICAL BOX&#xD;
+		VBox bottomPane = new VBox(); // CREAteS MAIN VERTICAL BOX&#xD;
+		&#xD;
+		&#xD;
+		bottomPane.getChildren().add(welcomeText);&#xD;
+		bottomPane.setAlignment(Pos.CENTER);&#xD;
+		&#xD;
 		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.&#xD;
-		createSecondLayer(secondPane);&#xD;
+		//createSecondLayer(secondPane);&#xD;
 		secondPane.getChildren().add(menuBox); // ADDS MENU TO MAIN VERTICAL BOX&#xD;
 		secondPane.getChildren().add(lifeGrid); // Adds lifegrid to bottompane beneath menu box&#xD;
 		&#xD;
 		&#xD;
 		bottomPane.getChildren().add(secondPane);&#xD;
 		Scene mainScene = new Scene(bottomPane); // ADDS VBOX TO SCENE&#xD;
-		mainStage.setWidth(1400);&#xD;
-		mainStage.setHeight(800);&#xD;
+		mainStage.setWidth(800);&#xD;
+		mainStage.setHeight(600);&#xD;
 &#xD;
 		mainStage.setScene(mainScene); // ADDS ENTIRE SCENE TO MAINSTAGE&#xD;
 &#xD;
 		// START MENU BUTTONS&#xD;
-		Button startBtn = new Button(&quot;Start&quot;);&#xD;
+		Button startBtn = new Button(&quot;Start&quot;);		&#xD;
+		Button repeatBtn = new Button(&quot;Repeat Pattern&quot;);&#xD;
+		Button toadBtn = new Button(&quot;Toad Pattern&quot;);&#xD;
+		Button beaconBtn = new Button(&quot;Beacon Pattern&quot;);&#xD;
+		Button spaceshipBtn = new Button(&quot;Spaceship Pattern&quot;);&#xD;
+		Button germBtn = new Button(&quot;Germs Pattern&quot;);&#xD;
+		Button closeBtn = new Button(&quot;Close Program&quot;);&#xD;
+		&#xD;
+		Button clearBtn = new Button(&quot;Clear screen&quot;);&#xD;
+		&#xD;
+		closeBtn.setMinWidth(80);&#xD;
+		&#xD;
 		menuBox.getChildren().add(startBtn);&#xD;
-		DynamicArray dy= new DynamicArray();&#xD;
+		menuBox.getChildren().add(repeatBtn);&#xD;
+		menuBox.getChildren().add(toadBtn);&#xD;
+		menuBox.getChildren().add(beaconBtn);&#xD;
+		menuBox.getChildren().add(spaceshipBtn);&#xD;
+		menuBox.getChildren().add(germBtn);&#xD;
+		menuBox.getChildren().add(closeBtn);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		menuBox.getChildren().add(clearBtn);&#xD;
+		&#xD;
+		clearBtn.setOnAction(e->{&#xD;
+			lifeGrid.getChildren().clear();&#xD;
+		});&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		dy= new DynamicArray();&#xD;
 		// SETS SPEED OF ANIMATION update&#xD;
-		KeyFrame frame = new KeyFrame(Duration.millis(getWorldSpeed()), new EventHandler&lt;ActionEvent>() {&#xD;
+		KeyFrame frame = new KeyFrame(Duration.millis(worldSpeed), new EventHandler&lt;ActionEvent>() {&#xD;
 &#xD;
 			public void handle(ActionEvent event) {&#xD;
 				&#xD;
-				lifeGrid.setGridLinesVisible(true);&#xD;
+				lifeGrid.getChildren().clear();&#xD;
+				&#xD;
+				int maxSize = 68;&#xD;
+					if (maxSize > dy.getArr().length) {&#xD;
+							maxSize = dy.getArr().length;&#xD;
+						}&#xD;
 			&#xD;
-				for(int i=0;i&lt;dy.getArr().length;i++)&#xD;
-				{&#xD;
-					for(int j=0;j&lt;dy.getArr().length;j++)&#xD;
-					{&#xD;
-						if(dy.getArr()[i][j].getCurrentStatus()==true)&#xD;
-						{&#xD;
-							Rectangle r= new Rectangle();&#xD;
-							r.setWidth(rectSize);&#xD;
-							r.setHeight(rectSize);&#xD;
-							r.setFill(Color.BLUE);&#xD;
-							lifeGrid.add(r, i ,j);&#xD;
-						}&#xD;
-						else&#xD;
-						{&#xD;
-							&#xD;
-							Rectangle r= new Rectangle();&#xD;
-							r.setWidth(rectSize);&#xD;
-							r.setHeight(rectSize);&#xD;
-							r.setFill(Color.WHITE);&#xD;
-							lifeGrid.add(r, i ,j);&#xD;
-						}&#xD;
+				for(int i=0;i&lt;maxSize;i++)&#xD;
+				{	for(int j=0;j&lt;maxSize;j++)&#xD;
+					{	&#xD;
+						&#xD;
+					lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);&#xD;
+										&#xD;
 					}&#xD;
-				}&#xD;
-				&#xD;
-				&#xD;
+				}	&#xD;
+//				for(int i=0;i&lt;dy.getArr().length;i++)&#xD;
+//				{	for(int j=0;j&lt;dy.getArr().length;j++)&#xD;
+//					{	lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);&#xD;
+//										}&#xD;
+//				}	&#xD;
 				dy.extendsArray();&#xD;
 				dy.updateStatus();&#xD;
 				dy.swapArr();&#xD;
-				&#xD;
-				lifeGrid.getChildren().removeAll();&#xD;
-				// TODO UPDATE 2D Array&#xD;
-				// TODO CreateGrid(); // REDRAW GRID, How do you call from inside a hidden&#xD;
-				// method?????&#xD;
 &#xD;
 			}&#xD;
 		});&#xD;
 &#xD;
+		lifeGrid.getChildren().removeAll();&#xD;
 		Timeline tl = TimelineBuilder.create().cycleCount(javafx.animation.Animation.INDEFINITE).keyFrames(frame)&#xD;
 				.build();&#xD;
 &#xD;
@@ -959,6 +929,7 @@
 					startStop = true;&#xD;
 					startBtn.setText(&quot;Pause&quot;);&#xD;
 					System.out.println(&quot;Click Start&quot;);&#xD;
+					lifeGrid.getChildren().removeAll();&#xD;
 				} else if (startStop == true) {&#xD;
 					tl.pause();&#xD;
 					startBtn.setText(&quot;Start&quot;);&#xD;
@@ -968,33 +939,136 @@
 			}&#xD;
 &#xD;
 		});&#xD;
+		&#xD;
+		repeatBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+				dy.arrIni[3][4].setCurrentStatus(true);&#xD;
+				dy.arrIni[4][4].setCurrentStatus(true);&#xD;
+				dy.arrIni[5][4].setCurrentStatus(true);	&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
+		toadBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+				dy.arrIni[2][2].setCurrentStatus(true);&#xD;
+			    dy.arrIni[2][3].setCurrentStatus(true);&#xD;
+			    dy.arrIni[2][4].setCurrentStatus(true);&#xD;
+			    dy.arrIni[3][1].setCurrentStatus(true);&#xD;
+			    dy.arrIni[3][2].setCurrentStatus(true);&#xD;
+			    dy.arrIni[3][2].setCurrentStatus(true);&#xD;
+			    dy.arrIni[3][3].setCurrentStatus(true);&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
+		beaconBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+&#xD;
+				dy.arrIni[3][3].setCurrentStatus(true);&#xD;
+				dy.arrIni[3][4].setCurrentStatus(true);&#xD;
+				dy.arrIni[4][3].setCurrentStatus(true);&#xD;
+				dy.arrIni[5][6].setCurrentStatus(true);&#xD;
+				dy.arrIni[6][5].setCurrentStatus(true);&#xD;
+				dy.arrIni[5][6].setCurrentStatus(true);&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
+		spaceshipBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+		&#xD;
+		        dy.arrIni[3][3].setCurrentStatus(true);&#xD;
+		        dy.arrIni[3][4].setCurrentStatus(true);&#xD;
+		        dy.arrIni[3][5].setCurrentStatus(true);&#xD;
+		        dy.arrIni[3][6].setCurrentStatus(true);&#xD;
+		        dy.arrIni[3][7].setCurrentStatus(true);&#xD;
+		        dy.arrIni[3][8].setCurrentStatus(true);&#xD;
+		        dy.arrIni[4][2].setCurrentStatus(true);&#xD;
+		        dy.arrIni[4][8].setCurrentStatus(true);&#xD;
+		        dy.arrIni[5][8].setCurrentStatus(true);&#xD;
+		        dy.arrIni[6][2].setCurrentStatus(true);&#xD;
+		        dy.arrIni[6][7].setCurrentStatus(true);&#xD;
+		        dy.arrIni[7][4].setCurrentStatus(true);&#xD;
+		        dy.arrIni[7][5].setCurrentStatus(true);&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
+		germBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+		&#xD;
+				dy.arrIni[3][1].setCurrentStatus(true);&#xD;
+             dy.arrIni[4][1].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][1].setCurrentStatus(true);    &#xD;
+             dy.arrIni[3][2].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][3].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][5].setCurrentStatus(true);&#xD;
+             dy.arrIni[4][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[6][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][6].setCurrentStatus(true);&#xD;
+             dy.arrIni[1][7].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][7].setCurrentStatus(true);&#xD;
+             dy.arrIni[3][7].setCurrentStatus(true);&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
+		closeBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+			public void handle(ActionEvent event) {&#xD;
+				&#xD;
+				&#xD;
+//				for(int i=0;i &lt; dy.getArr().length;i++)&#xD;
+//				{&#xD;
+//					for(int j=0;j&lt;dy.getArr().length;j++)&#xD;
+//					{&#xD;
+//						&#xD;
+//						&#xD;
+//							dy.arrIni[i][j] = null;&#xD;
+//						&#xD;
+//					}&#xD;
+//				}&#xD;
+				&#xD;
+				lifeGrid.getChildren().removeAll();&#xD;
+				dy=null;&#xD;
+				bottomPane.getChildren().clear();&#xD;
+				mainStage.close();&#xD;
+			    Platform.runLater( () -> {&#xD;
+					try {&#xD;
+						new UserInterface().start( new Stage() );&#xD;
+					} catch (Exception e) {&#xD;
+						// TODO Auto-generated catch block&#xD;
+						e.printStackTrace();&#xD;
+					}&#xD;
+				} );&#xD;
+//				mainScene.getClass().clo&#xD;
+//				&#xD;
+//				mainStage.close();&#xD;
+//				&#xD;
+//				try {&#xD;
+//					reStart(mainStage);&#xD;
+//				} catch (Exception e) {&#xD;
+//					// TODO Auto-generated catch block&#xD;
+//					e.printStackTrace();&#xD;
+//				}&#xD;
+//				dy = new DynamicArray();				 &#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+		&#xD;
 &#xD;
 		mainStage.show(); // SHOWS MAINSTAGE ON SCREEN&#xD;
-	</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRp0sL5HEemAFunI8rPp5w" name="createMenu" specification="_YRPlAr5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRp0sb5HEemAFunI8rPp5w" name="menuBox" type="_YQ8qEb5HEemAFunI8rPp5w"/>
-        <language>java</language>
-        <body>menuBox.setAlignment(Pos.CENTER);&#xD;
-		menuBox.setSpacing(20);&#xD;
-		menuBox.prefHeight(700);&#xD;
-		menuBox.setMinHeight(700);&#xD;
-		menuBox.setPadding(new Insets (10));&#xD;
-&#xD;
-		// TODO SET SPACING PADDING, BUTTON WIDTH&#xD;
 	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRp0sr5HEemAFunI8rPp5w" name="createSecondLayer" specification="_YRQMEL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRp0s75HEemAFunI8rPp5w" name="s" type="_YQ8qEb5HEemAFunI8rPp5w"/>
         <language>java</language>
         <body>s.setPadding( new Insets(15));&#xD;
-	</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRp0tL5HEemAFunI8rPp5w" name="createGrid" specification="_YRQzIL5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRp0tb5HEemAFunI8rPp5w" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
-        <language>java</language>
-        <body>// TODO Fetch Array and display items in grid at current position.&#xD;
-&#xD;
 	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRqbwL5HEemAFunI8rPp5w" name="main" specification="_YQLOAL5HEemAFunI8rPp5w">
@@ -1006,8 +1080,35 @@
         <body>launch(args);&#xD;
 	</body>
       </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT7kML7oEem8QL0Ty-Eieg" name="reStart" specification="_jTnbIL7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_jT7kMb7oEem8QL0Ty-Eieg" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
+        <language>java</language>
+        <body>start(mainStage);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT7kMr7oEem8QL0Ty-Eieg" name="createMenu" specification="_jTnbIr7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_jT7kM77oEem8QL0Ty-Eieg" name="menuBox" type="_YQ94Mb5HEemAFunI8rPp5w"/>
+        <language>java</language>
+        <body>menuBox.setAlignment(Pos.CENTER);&#xD;
+		menuBox.setSpacing(20);&#xD;
+		menuBox.prefHeight(700);&#xD;
+		menuBox.setMinHeight(700);&#xD;
+		menuBox.setPadding(new Insets (10));&#xD;
+		&#xD;
+&#xD;
+		// TODO SET SPACING PADDING, BUTTON WIDTH&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT8LQL7oEem8QL0Ty-Eieg" name="createGridPane" specification="_jTnbJL7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_jT8LQb7oEem8QL0Ty-Eieg" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
+        <language>java</language>
+        <body>lifeGrid.setMinSize(700, 700);&#xD;
+		lifeGrid.setAlignment(Pos.CENTER);&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
       <ownedOperation xmi:id="_YQLOAL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRqbwL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_YRsQ8L5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_cVUPcb7sEem8QL0Ty-Eieg">
           <body>Launches JavaFX&#xD;
 	 * &#xD;
 	 * @param args</body>
@@ -1020,28 +1121,23 @@
       <ownedOperation xmi:id="_YRPlAL5HEemAFunI8rPp5w" name="start" method="_YRpNpr5HEemAFunI8rPp5w" raisedException="_YRNIwb5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRPlAb5HEemAFunI8rPp5w" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_YRPlAr5HEemAFunI8rPp5w" name="createMenu" method="_YRp0sL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_YRrp5L5HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_YRQMEL5HEemAFunI8rPp5w" name="createSecondLayer" method="_YRp0sr5HEemAFunI8rPp5w">
+        <ownedParameter xmi:id="_YRQMEb5HEemAFunI8rPp5w" name="s" type="_YQ8qEb5HEemAFunI8rPp5w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jTnbIL7oEem8QL0Ty-Eieg" name="reStart" method="_jT7kML7oEem8QL0Ty-Eieg" raisedException="_YRNIwb5HEemAFunI8rPp5w">
+        <ownedParameter xmi:id="_jTnbIb7oEem8QL0Ty-Eieg" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jTnbIr7oEem8QL0Ty-Eieg" name="createMenu" method="_jT7kMr7oEem8QL0Ty-Eieg">
+        <ownedComment xmi:id="_cVUPcL7sEem8QL0Ty-Eieg">
           <body>Controls visual features of Menu Box, padding etc.&#xD;
 	 * &#xD;
 	 * @param menuBox&#xD;
 	 *            - passes HBox from inside stage.</body>
         </ownedComment>
-        <ownedParameter xmi:id="_YRPlA75HEemAFunI8rPp5w" name="menuBox" type="_YQ8qEb5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_jTnbI77oEem8QL0Ty-Eieg" name="menuBox" type="_YQ94Mb5HEemAFunI8rPp5w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_YRQMEL5HEemAFunI8rPp5w" name="createSecondLayer" method="_YRp0sr5HEemAFunI8rPp5w">
-        <ownedParameter xmi:id="_YRQMEb5HEemAFunI8rPp5w" name="s" type="_YQ8qEb5HEemAFunI8rPp5w"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_YRQzIL5HEemAFunI8rPp5w" name="createGrid" method="_YRp0tL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_YRrp5b5HEemAFunI8rPp5w">
-          <body>&#xD;
-	 * Creates the features of the gridpane that displays the Cells and their&#xD;
-	 * current position.&#xD;
-	 * &#xD;
-	 * @param lifeGrid&#xD;
-	 *            - passes the grid we are using to display living cells</body>
-        </ownedComment>
-        <ownedParameter xmi:id="_YRQzIb5HEemAFunI8rPp5w" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
+      <ownedOperation xmi:id="_jTnbJL7oEem8QL0Ty-Eieg" name="createGridPane" method="_jT8LQL7oEem8QL0Ty-Eieg">
+        <ownedParameter xmi:id="_jTnbJb7oEem8QL0Ty-Eieg" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_YRwiYL5HEemAFunI8rPp5w" name="" memberEnd="_YRwiYb5HEemAFunI8rPp5w _YRW5wb5HEemAFunI8rPp5w">
@@ -1049,6 +1145,12 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_YRxwgb5HEemAFunI8rPp5w" name="" memberEnd="_YRxwgr5HEemAFunI8rPp5w _YRXg0b5HEemAFunI8rPp5w">
       <ownedEnd xmi:id="_YRxwgr5HEemAFunI8rPp5w" name="" type="_YP1PwL5HEemAFunI8rPp5w" association="_YRxwgb5HEemAFunI8rPp5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jT8yUL7oEem8QL0Ty-Eieg" name="" memberEnd="_jT8yUb7oEem8QL0Ty-Eieg _jT6WEL7oEem8QL0Ty-Eieg">
+      <ownedEnd xmi:id="_jT8yUb7oEem8QL0Ty-Eieg" name="" type="_YQJY0L5HEemAFunI8rPp5w" association="_jT8yUL7oEem8QL0Ty-Eieg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_q5m8IL7oEem8QL0Ty-Eieg" name="" memberEnd="_q5m8Ib7oEem8QL0Ty-Eieg _q5jRwL7oEem8QL0Ty-Eieg">
+      <ownedEnd xmi:id="_q5m8Ib7oEem8QL0Ty-Eieg" name="" type="_YPi74L5HEemAFunI8rPp5w" association="_q5m8IL7oEem8QL0Ty-Eieg"/>
     </packagedElement>
     <profileApplication xmi:id="_YDSBgL5HEemAFunI8rPp5w">
       <eAnnotations xmi:id="_YDVr4L5HEemAFunI8rPp5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1064,13 +1166,10 @@
   <UMLLabProfile:Array xmi:id="_YP79cb5HEemAFunI8rPp5w" dimensions="2" base_Element="_YP7WYb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Array xmi:id="_YP9Lkb5HEemAFunI8rPp5w" dimensions="2" base_Element="_YP8kgb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Array xmi:id="_YP9yo75HEemAFunI8rPp5w" dimensions="2" base_Element="_YP9yoL5HEemAFunI8rPp5w"/>
-  <UMLLabProfile:Array xmi:id="_YQqWMb5HEemAFunI8rPp5w" dimensions="2" base_Element="_YQpvIL5HEemAFunI8rPp5w"/>
-  <UMLLabProfile:Array xmi:id="_YQq9Qb5HEemAFunI8rPp5w" dimensions="2" base_Element="_YQpvIb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Array xmi:id="_YQrkU75HEemAFunI8rPp5w" dimensions="2" base_Element="_YQq9Qr5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Array xmi:id="_YQsLYb5HEemAFunI8rPp5w" dimensions="2" base_Element="_YQrkUL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YQv1wL5HEemAFunI8rPp5w" base_Element="_YQuAkL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Array xmi:id="_YQxD4b5HEemAFunI8rPp5w" dimensions="2" base_Element="_YQwc0b5HEemAFunI8rPp5w"/>
-  <UMLLabProfile:Array xmi:id="_YQxq8r5HEemAFunI8rPp5w" dimensions="2" base_Element="_YQxq8L5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YQzgIL5HEemAFunI8rPp5w" base_Element="_YQy5EL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YQ0HML5HEemAFunI8rPp5w" base_Element="_YQzgIb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YQ1VUL5HEemAFunI8rPp5w" base_Element="_YQ0uQL5HEemAFunI8rPp5w"/>
@@ -1100,7 +1199,12 @@
   <UMLLabProfile:Array xmi:id="_YRXg075HEemAFunI8rPp5w" dimensions="2" base_Element="_YRXg0b5HEemAFunI8rPp5w"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YRYH4L5HEemAFunI8rPp5w" base_Element="_YRXg0b5HEemAFunI8rPp5w"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YRYu8r5HEemAFunI8rPp5w" base_Element="_YRYu8L5HEemAFunI8rPp5w"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_YRZWAr5HEemAFunI8rPp5w" base_Element="_YRZWAL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YRxwgL5HEemAFunI8rPp5w" base_Element="_YRwiYL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YRy-oL5HEemAFunI8rPp5w" base_Element="_YRxwgb5HEemAFunI8rPp5w"/>
+  <UMLLabProfile:Reference xmi:id="_jT4g4L7oEem8QL0Ty-Eieg" base_Element="_jT350L7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:Reference xmi:id="_jT5vAL7oEem8QL0Ty-Eieg" base_Element="_jT5H8L7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT69IL7oEem8QL0Ty-Eieg" base_Element="_jT6WEL7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:Reference xmi:id="_jT-AcL7oEem8QL0Ty-Eieg" base_Element="_jT8yUL7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_q5j40L7oEem8QL0Ty-Eieg" base_Element="_q5jRwL7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:Reference xmi:id="_q5njML7oEem8QL0Ty-Eieg" base_Element="_q5m8IL7oEem8QL0Ty-Eieg"/>
 </xmi:XMI>
