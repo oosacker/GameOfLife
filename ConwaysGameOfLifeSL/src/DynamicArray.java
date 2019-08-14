@@ -2,7 +2,7 @@
 /**
  * @program DynamicArray
  * @description:
- * @author: Zong Shi
+ * @author: Zong Shi, Natsuki Hasegawa
  * @create 2019-08-13 11:29
  */
 
