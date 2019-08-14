@@ -45,12 +45,12 @@ public class Main {
 			testArr = test.getArr();
 			print2(testArr);
 			
-			int num1 = test.getNum();
-			int scale1 = test.getScale();
-			if(testArr.length>num1)
-			{
-				test.shrinkArray();
-			}
+			int checkingNum = test.getNum();
+			
+			if(checkingNum < testArr.length)
+			  {
+			   test.shrinkArray();
+			  }
 			
 		}
 	}

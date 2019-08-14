@@ -22,7 +22,41 @@ public class DynamicArray {
 		
 		arrIni = fillArrayWithDead(arrIni);
 		
+		
+		//blinker:
+//		arrIni[3][3].setCurrentStatus(true);
+//		arrIni[3][4].setCurrentStatus(true);
+//		arrIni[3][5].setCurrentStatus(true);
+		
 		/*
+		//Toad: 
+		arrIni[2][2].setCurrentStatus(true);
+	    arrIni[2][3].setCurrentStatus(true);
+	    arrIni[2][4].setCurrentStatus(true);
+	    arrIni[3][1].setCurrentStatus(true);
+	    arrIni[3][2].setCurrentStatus(true);
+	    arrIni[3][2].setCurrentStatus(true);
+	    arrIni[3][3].setCurrentStatus(true);
+		*/
+		
+		/*
+	    //hershel
+	    arrIni[3][3].setCurrentStatus(true);
+	    arrIni[4][3].setCurrentStatus(true);
+	    arrIni[4][4].setCurrentStatus(true);
+	    arrIni[4][5].setCurrentStatus(true);
+	    arrIni[5][3].setCurrentStatus(true);
+	    arrIni[5][5].setCurrentStatus(true);
+	    arrIni[6][5].setCurrentStatus(true);
+	    */
+		
+//		arrIni[2][2].setCurrentStatus(true);
+//	    arrIni[2][3].setCurrentStatus(true);
+//	    arrIni[2][4].setCurrentStatus(true);
+//	    arrIni[2][7].setCurrentStatus(true);
+//	    arrIni[2][8].setCurrentStatus(true);
+		
+		
 		//spaceship:
 		arrIni[3][3].setCurrentStatus(true);
 		arrIni[3][4].setCurrentStatus(true);
@@ -37,31 +71,27 @@ public class DynamicArray {
 		arrIni[6][7].setCurrentStatus(true);
 		arrIni[7][4].setCurrentStatus(true);
 		arrIni[7][5].setCurrentStatus(true);
-		 */
 		
 		
+		/*
+		//r-pentomino
+		arrIni[4][5].setCurrentStatus(true);
+		arrIni[4][6].setCurrentStatus(true);
+		arrIni[5][4].setCurrentStatus(true);
+		arrIni[5][5].setCurrentStatus(true);
+		arrIni[6][5].setCurrentStatus(true);
+		*/
+		
+		/*
+		// line:
 		arrIni[3][2].setCurrentStatus(true);
 		arrIni[3][3].setCurrentStatus(true);
 		arrIni[3][4].setCurrentStatus(true);
 		arrIni[3][5].setCurrentStatus(true);
 		arrIni[3][6].setCurrentStatus(true);
 		arrIni[3][7].setCurrentStatus(true);
-
-		/*
-		arrIni[5][2].setCurrentStatus(true);
-		arrIni[5][3].setCurrentStatus(true);
-		arrIni[5][4].setCurrentStatus(true);
-		arrIni[5][5].setCurrentStatus(true);
-		arrIni[5][6].setCurrentStatus(true);
-		arrIni[5][7].setCurrentStatus(true);
-		 */
-		//arrIni[0][2].setCurrentStatus(true);
-
-		//	  arrIni[1][2].setCurrentStatus(true);
-		//arrIni[1][3].setCurrentStatus(true);
-		////arrIni[2][1].setCurrentStatus(true);
-		//arrIni[2][2].setCurrentStatus(true);
-		//arrIni[2][3].setCurrentStatus(true);
+		*/
+		
 
 	}
 
@@ -239,92 +269,101 @@ public class DynamicArray {
 
 	}
 	
-	 public void shrinkArray()
+	public void shrinkArray()
 	  {
-		  boolean flag = false;
-		  int length = arrIni.length;
-		 
-		  //checking the right part alive cells
-		  for(int i=0;i<length;i++)
-		  {
-			  for(int j = length -scale+3; j<length; j++)
-			  {
-				  if(arrIni[i][j].getCurrentStatus()==true)
-				  {
-					  flag = true;
-					  break;
-				  }
-			  }
-		  }
-		  
-		  //checking the left part alive cells
-		  for(int i=0; i<length; i++) {
-			  for(int j=0; j<scale+1-3; j++)
-			  {
-				  if(arrIni[i][j].getCurrentStatus()==true)
-				  {
-					  flag = true;
-					  break;
-					  
-				  }
-			  }
-		  }
-		  
-		  //checking the top part alive cells
-		  for(int i = 0; i<scale+1-3;i++)
-		  {
-			  for(int j = 0; j<length; j++)
-			  {
-				  if(arrIni[i][j].getCurrentStatus()==true)
-				  {
-					  flag = true;
-					  break;
-				  }
-			  }
-		  }
-		  
-		  //checking the bottom part alive cells
-		  for(int i = length-scale+3; i<length ; i++)
-		  {
-			  for(int j = 0; j<length ; j++)
-			  {
-				  if(arrIni[i][j].getCurrentStatus()==true)
-				  {
-					  flag = true;
-					  break;
-				  }
-			  }
-		  }
-		  
-		  if(flag == false)
-		  {
-			  Cell[][] temp = shrink();
-			  arrIni = temp;
-		  }
+	   System.out.println("Shrinking run");
+	   boolean flag = false;
+	   int length = arrIni.length;
+	  
+	   //checking the right part alive cells
+	   tag1:
+	   for(int i=0;i<length;i++)
+	   {
+	    for(int j = length -scale/2; j<length; j++)
+	    {
+	     if(arrIni[i][j].getCurrentStatus()==true)
+	     {
+	      flag = true;
+	      System.out.println("test1");
+	      break tag1;
+	     }
+	    }
+	   }
+	   
+	   //checking the left part alive cells
+	   tag2:
+	   for(int i=0; i<length; i++) {
+	    for(int j=0; j<scale/2+1; j++)
+	    {
+	     if(arrIni[i][j].getCurrentStatus()==true)
+	     {
+	      flag = true;
+	      System.out.println("test2");
+	      break tag2;
+	      
+	     }
+	    }
+	   }
+	   
+	   //checking the top part alive cells
+	   tag3:
+	   for(int i = 0; i<scale/2+1;i++)
+	   {
+	    for(int j = 0; j<length; j++)
+	    {
+	     if(arrIni[i][j].getCurrentStatus()==true)
+	     {
+	      flag = true;
+	      System.out.println("test3");
+	      break tag3;
+	     }
+	    }
+	   }
+	   
+	   //checking the bottom part alive cells
+	   tag4:
+	   for(int i = length-scale/2; i<length ; i++)
+	   {
+	    for(int j = 0; j<length ; j++)
+	    {
+	     if(arrIni[i][j].getCurrentStatus()==true)
+	     {
+	      flag = true;
+	      System.out.println("test4");
+	      break tag4;
+	     }
+	    }
+	   }
+	   
+	   if(flag == false)
+	   {
+	    Cell[][] temp = shrink();
+	    arrIni = temp;
+	   }
 	  }
 	 
-	  public Cell[][] shrink()
+	public Cell[][] shrink()
 	  {
-		  Cell[][] cellShrink = new Cell[arrIni.length/2][arrIni.length/2];
-		  for(int i = 0; i < arrIni.length/2; i++)
-		  {
-			  for(int j=0; j<arrIni.length/2; j++)
-			  {
-				  cellShrink[i][j] = new Cell(i,j,false,false);
-			  }
-		  }
-		  
-		  for(int i = scale/2; i< arrIni.length-scale/2; i++)
-		  {
-			  for(int j = scale/2 ; j< arrIni.length-scale/2;j++)
-			  {
-				  cellShrink[i-scale/2][j-scale/2].setCurrentStatus(arrIni[i][j].getCurrentStatus());
-				  cellShrink[i-scale/2][j-scale/2].setNextStatus(arrIni[i][j].getNextStatus());
-			  }
-		  }
-		  scale = scale/2;
-		  
-		  return cellShrink;
+	   Cell[][] cellShrink = new Cell[arrIni.length/2][arrIni.length/2];
+	   for(int i = 0; i < arrIni.length/2; i++)
+	   {
+	    for(int j=0; j<arrIni.length/2; j++)
+	    {
+	     cellShrink[i][j] = new Cell(i,j,false,false);
+	    }
+	   }
+	   
+	   for(int i = scale/2; i< arrIni.length-scale/2; i++)
+	   {
+	    for(int j = scale/2 ; j< arrIni.length-scale/2;j++)
+	    {
+	     cellShrink[i-scale/2][j-scale/2].setCurrentStatus(arrIni[i][j].getCurrentStatus());
+	     cellShrink[i-scale/2][j-scale/2].setNextStatus(arrIni[i][j].getNextStatus());
+	    }
+	   }
+	   scale = scale/2;
+	   
+	   return cellShrink;
 	  }
 
 	/**
