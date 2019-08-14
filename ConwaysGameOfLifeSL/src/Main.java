@@ -29,6 +29,11 @@ public class Main {
 		System.out.println(" ");
 	}
 
+	/**
+	 * Main method for testing the DynamicArray.
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 		DynamicArray test = new DynamicArray();
 		Cell[][] testArr = test.getArr();
