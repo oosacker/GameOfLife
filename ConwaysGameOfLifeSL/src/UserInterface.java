@@ -18,15 +18,17 @@ import javafx.util.Duration;
  * User interface class showing employing JavaFX and fetching data from backend. 
  * 
  * 13Aug19
- * @author Lock, Samuel;
- * @contact locksamu@myvuw.ac.nz;
- * @create 13Aug19 
+ * @author Lock, Samuel; Bollineni Dharani, 
+ * @contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com
+ * @create 13Aug19 --	
  */
 
 
 
 //TODO Add favicon
-//TODO Timeline Builder
+//TODO Create Array object. Animate updating of array object.  Create rectangles based on true or flag cell data. if cell is alive, create red rect; if fase, create white.
+//TODO Display rectangles.
+//TODO CLEAR ALL RECTANGLES, then crceate new rectnalges based on current position. 
 
 
 
@@ -68,7 +70,6 @@ public class UserInterface extends Application {
 		Button startBtn = new Button("Start");
 		menuBox.getChildren().add(startBtn);
 		
-		//TODO TIMELINEBUILDER
 		// SETS SPEED OF ANIMATION
 		KeyFrame frame = new KeyFrame(Duration.millis(getWorldSpeed()), new EventHandler<ActionEvent>() {
 		
@@ -117,7 +118,7 @@ public class UserInterface extends Application {
 		menuBox.setAlignment(Pos.CENTER);
 		menuBox.setSpacing(20);
 		
-		//TODO SET SPACING AND PADDING, BUTTON WIDTH
+		//TODO SET SPACING PADDING, BUTTON WIDTH
 	}
 	
 	/**

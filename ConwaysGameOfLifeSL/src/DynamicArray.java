@@ -1,4 +1,3 @@
-import java.util.PrimitiveIterator;
 
 /**
  * @program DynamicArray
@@ -9,29 +8,60 @@ import java.util.PrimitiveIterator;
 
 public class DynamicArray {
 
-	private static final int num = 4;
+	//private static final int num = 4;
+	private static final int num = 10;
 
 	private static int scale = (num)/2;
 
 	Cell[][] arrIni;
-
 	Cell[][] arrNext;
 
 	public DynamicArray(){
 
 		arrIni= new Cell[num][num];
-		for (int i = 0; i < arrIni.length; i++) {
-			for (int j = 0; j < arrIni.length; j++) {
-				arrIni[i][j] = new Cell(i, j, false, false);
-			}
-		}
+		
+		arrIni = fillArrayWithDead(arrIni);
+		
+		/*
+		//spaceship:
+		arrIni[3][3].setCurrentStatus(true);
+		arrIni[3][4].setCurrentStatus(true);
+		arrIni[3][5].setCurrentStatus(true);
+		arrIni[3][6].setCurrentStatus(true);
+		arrIni[3][7].setCurrentStatus(true);
+		arrIni[3][8].setCurrentStatus(true);
+		arrIni[4][2].setCurrentStatus(true);
+		arrIni[4][8].setCurrentStatus(true);
+		arrIni[5][8].setCurrentStatus(true);
+		arrIni[6][2].setCurrentStatus(true);
+		arrIni[6][7].setCurrentStatus(true);
+		arrIni[7][4].setCurrentStatus(true);
+		arrIni[7][5].setCurrentStatus(true);
+		 */
+		
+		
+		arrIni[3][2].setCurrentStatus(true);
+		arrIni[3][3].setCurrentStatus(true);
+		arrIni[3][4].setCurrentStatus(true);
+		arrIni[3][5].setCurrentStatus(true);
+		arrIni[3][6].setCurrentStatus(true);
+		arrIni[3][7].setCurrentStatus(true);
 
-		arrIni[0][2].setCurrentStatus(true);
+		/*
+		arrIni[5][2].setCurrentStatus(true);
+		arrIni[5][3].setCurrentStatus(true);
+		arrIni[5][4].setCurrentStatus(true);
+		arrIni[5][5].setCurrentStatus(true);
+		arrIni[5][6].setCurrentStatus(true);
+		arrIni[5][7].setCurrentStatus(true);
+		 */
+		//arrIni[0][2].setCurrentStatus(true);
+
 		//	  arrIni[1][2].setCurrentStatus(true);
-		arrIni[1][3].setCurrentStatus(true);
-		arrIni[2][1].setCurrentStatus(true);
-		arrIni[2][2].setCurrentStatus(true);
-		arrIni[2][3].setCurrentStatus(true);
+		//arrIni[1][3].setCurrentStatus(true);
+		////arrIni[2][1].setCurrentStatus(true);
+		//arrIni[2][2].setCurrentStatus(true);
+		//arrIni[2][3].setCurrentStatus(true);
 
 	}
 
@@ -57,15 +87,12 @@ public class DynamicArray {
 			}
 		}
 	}
-////////
+
 	public Cell[][] extend() {
 
 		Cell[][] arr = new Cell[(arrIni.length)*2][(arrIni.length)*2];
-		for(int i = 0; i<arr.length;i++){
-			for(int j = 0; j<arr.length; j++){
-				arr[i][j] = new Cell(i,j,false,false);
-			}
-		}
+
+		arr = fillArrayWithDead(arr);
 
 		for(int i = scale; i<arr.length-scale; i++){
 			for(int j = scale; j<arr.length-scale; j++)
@@ -79,22 +106,21 @@ public class DynamicArray {
 
 		return arr;
 	}
-	
+
 	/**
-	 * 
+	 * Fill array with dead cells for initialisation
 	 * @return
 	 */
 	public Cell[][] fillArrayWithDead(Cell[][] input) {
-		
+
 		for(int i = 0; i<input.length;i++){
 			for(int j = 0; j<input.length; j++){
 				input[i][j] = new Cell(i, j, false, false);
 			}
 		}
 		return input;
-	
-	}
 
+	}
 
 	/**
 	 * 
@@ -105,38 +131,23 @@ public class DynamicArray {
 	 * @throws
 	 */
 	public void updateStatus() {
-		//	  System.out.println(arrIni.length + "Length^^^^^");//test
 		for(int i=1;i<arrIni.length-1;i++) {
 			for(int j=1;j<arrIni.length-1;j++) {
+				
 				Cell c = arrIni[i][j];
-				//			  System.out.println("i "+i + " j " + j);//test
+				
 				int counter = checkNeighbor(c);
-				//			  System.out.println("^^^^^" + i + " " + j);//test
-				//			  System.out.println(counter + " counter-------------");//test
-				//			  System.out.println(c.currentStatus);//test
-				if(c.getCurrentStatus()==true)
-				{
-					//				  System.out.println(c.currentStatus+"*****************");
-
-					if(counter==2||counter==3)
-					{
+				
+				if(c.getCurrentStatus()==true){
+					if(counter==2||counter==3){
 						c.setNextStatus(true);
-						//					  System.out.println("set run+++++++++++" + i + j);//Test
 					}
-					//				  System.out.println(c.currentStatus);
-
 				}
-				else if(c.getCurrentStatus()==false)
-				{
+				else if(c.getCurrentStatus()==false){
 					if(counter==3) {
 						c.setNextStatus(true);
-
-
 					}
 				}
-
-				//			 System.out.println("Update Test");
-
 			}
 		}
 
@@ -154,20 +165,21 @@ public class DynamicArray {
 	 * @return ：Cell[][] 
 	 * @throws
 	 */
-	public Cell[][] nextGenArray(Cell[][] arr)
-	{
+	public Cell[][] nextGenArray(Cell[][] arr){
+		
 		Cell[][] tempNextGen = arr;
+		
 		for(int i=1;i<tempNextGen.length-1;i++) {
 			for(int j=1;j<tempNextGen.length-1;j++) {
+				
 				Cell c = tempNextGen[i][j];
 				c.setCurrentStatus(c.getNextStatus());
 				c.setNextStatus(false);
+				
 			}
 		}
 		return tempNextGen;
 	}
-
-
 
 
 	/**
@@ -184,59 +196,136 @@ public class DynamicArray {
 		int counter = 0;
 		int cellx = c.getX();
 		int celly = c.getY();
-		//	  
-		//	  System.out.println(celly);
-		//	  System.out.println(cellx);
-
 
 		//check right side
 		if(arrIni[celly][cellx+1].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("1~~~~");
 		}
+		
 		//check top right side
 		if(arrIni[celly-1][cellx+1].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("2~~~~");
 		}
 
 		//check bottom right side
 		if(arrIni[celly+1][cellx+1].getCurrentStatus()==true){
 			counter++;
-			//		System.out.println("3~~~");
 		}
 
 		//check top side
 		if(arrIni[celly-1][cellx].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("4~~~~");
 		}
 
 		//check top left side
 		if(arrIni[celly-1][cellx-1].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("5~~~~");
 		}
 
 		//check left side
 		if(arrIni[celly][cellx-1].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("6~~~~");
 		}
 		//check left bottom side
 		if(arrIni[celly+1][cellx-1].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("7~~~~");
 		}
 
 		//check down side
 		if(arrIni[celly+1][cellx].getCurrentStatus()==true) {
 			counter++;
-			//		  System.out.println("8~~~~");
 		}
 		return counter;
 
 	}
+	
+	 public void shrinkArray()
+	  {
+		  boolean flag = false;
+		  int length = arrIni.length;
+		 
+		  //checking the right part alive cells
+		  for(int i=0;i<length;i++)
+		  {
+			  for(int j = length -scale+3; j<length; j++)
+			  {
+				  if(arrIni[i][j].getCurrentStatus()==true)
+				  {
+					  flag = true;
+					  break;
+				  }
+			  }
+		  }
+		  
+		  //checking the left part alive cells
+		  for(int i=0; i<length; i++) {
+			  for(int j=0; j<scale+1-3; j++)
+			  {
+				  if(arrIni[i][j].getCurrentStatus()==true)
+				  {
+					  flag = true;
+					  break;
+					  
+				  }
+			  }
+		  }
+		  
+		  //checking the top part alive cells
+		  for(int i = 0; i<scale+1-3;i++)
+		  {
+			  for(int j = 0; j<length; j++)
+			  {
+				  if(arrIni[i][j].getCurrentStatus()==true)
+				  {
+					  flag = true;
+					  break;
+				  }
+			  }
+		  }
+		  
+		  //checking the bottom part alive cells
+		  for(int i = length-scale+3; i<length ; i++)
+		  {
+			  for(int j = 0; j<length ; j++)
+			  {
+				  if(arrIni[i][j].getCurrentStatus()==true)
+				  {
+					  flag = true;
+					  break;
+				  }
+			  }
+		  }
+		  
+		  if(flag == false)
+		  {
+			  Cell[][] temp = shrink();
+			  arrIni = temp;
+		  }
+	  }
+	 
+	  public Cell[][] shrink()
+	  {
+		  Cell[][] cellShrink = new Cell[arrIni.length/2][arrIni.length/2];
+		  for(int i = 0; i < arrIni.length/2; i++)
+		  {
+			  for(int j=0; j<arrIni.length/2; j++)
+			  {
+				  cellShrink[i][j] = new Cell(i,j,false,false);
+			  }
+		  }
+		  
+		  for(int i = scale/2; i< arrIni.length-scale/2; i++)
+		  {
+			  for(int j = scale/2 ; j< arrIni.length-scale/2;j++)
+			  {
+				  cellShrink[i-scale/2][j-scale/2].setCurrentStatus(arrIni[i][j].getCurrentStatus());
+				  cellShrink[i-scale/2][j-scale/2].setNextStatus(arrIni[i][j].getNextStatus());
+			  }
+		  }
+		  scale = scale/2;
+		  
+		  return cellShrink;
+	  }
 
 	/**
 	 * 
@@ -259,6 +348,16 @@ public class DynamicArray {
 	public Cell[][] getNextArr()
 	{
 		return arrNext;
+	}
+	
+	public int getScale()
+	{
+		return scale;
+	}
+	
+	public int getNum()
+	{
+		return num;
 	}
 }
 
