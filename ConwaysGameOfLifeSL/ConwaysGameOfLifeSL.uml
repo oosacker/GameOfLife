@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_YDO-ML5HEemAFunI8rPp5w" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_YDPlQL5HEemAFunI8rPp5w" source="codegen">
         <details xmi:id="_YDPlQb5HEemAFunI8rPp5w" key="codegenDirectory" value="/ConwaysGameOfLifeSL/src"/>
-        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;1292448608/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;1587127689/1;/ConwaysGameOfLifeSL/src/Main.java;1635802912/1;/ConwaysGameOfLifeSL/src/UserInterface.java;1290335171/1;"/>
+        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;1292448608/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;1587127689/1;/ConwaysGameOfLifeSL/src/Main.java;751210508/1;/ConwaysGameOfLifeSL/src/UserInterface.java;1290335171/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5woL7jEem8QL0Ty-Eieg" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5wob7jEem8QL0Ty-Eieg" source="com.yattasolutions.codegen.reverse">
@@ -731,7 +731,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YQFHYL5HEemAFunI8rPp5w" name="Main">
-      <ownedComment xmi:id="_8aifcL7sEem8QL0Ty-Eieg">
+      <ownedComment xmi:id="_A4TEML7tEem8QL0Ty-Eieg">
         <body>Test code for the Game of Life - uses console to display the cells.
 
 @author Zong Shi, Natsuki Hasegawa
@@ -778,12 +778,9 @@
 			print(testArr);
 			
 			int checkingNum = test.getNum();
-			
-			if(checkingNum &lt; testArr.length)
-			  {
+			if(checkingNum &lt; testArr.length){
 			   test.shrinkArray();
 			  }
-			
 		}
 	</body>
       </ownedBehavior>

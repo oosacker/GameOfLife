@@ -118,7 +118,7 @@
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cV6sYL7sEem8QL0Ty-Eieg" targetItem="_YlpHsL5HEemAFunI8rPp5w" sourceItem="_cV43ML7sEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWQDkL7sEem8QL0Ty-Eieg" targetItem="_YlpHwb5HEemAFunI8rPp5w" sourceItem="_cWNAQL7sEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWZNgL7sEem8QL0Ty-Eieg" targetItem="_jUFVML7oEem8QL0Ty-Eieg" sourceItem="_cWX_YL7sEem8QL0Ty-Eieg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8bh98L7sEem8QL0Ty-Eieg" targetItem="_Yl0t4L5HEemAFunI8rPp5w" sourceItem="_8bgv0L7sEem8QL0Ty-Eieg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A4Vgcb7tEem8QL0Ty-Eieg" targetItem="_Yl0t4L5HEemAFunI8rPp5w" sourceItem="_A4VgcL7tEem8QL0Ty-Eieg"/>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yka_ub5HEemAFunI8rPp5w" comments="_yq5HIL7oEem8QL0Ty-Eieg" targetConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" name="DynamicArray" associationsIn="_jUchkL7oEem8QL0Ty-Eieg" associationsOut="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YP1PwL5HEemAFunI8rPp5w"/>
     <visualProperties xmi:id="_Yka_ur5HEemAFunI8rPp5w" position="30.0,30.0" size="-1.0,-1.0"/>
@@ -320,7 +320,7 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_8bgv0L7sEem8QL0Ty-Eieg" targetConnectionVisual="_8bh98L7sEem8QL0Ty-Eieg" name="Main">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_A4VgcL7tEem8QL0Ty-Eieg" targetConnectionVisual="_A4Vgcb7tEem8QL0Ty-Eieg" name="Main">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YQFHYL5HEemAFunI8rPp5w"/>
     <visualProperties xmi:id="_Yl0t4b5HEemAFunI8rPp5w" position="422.0,147.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_Yl0t4r5HEemAFunI8rPp5w" label="+"/>
@@ -718,7 +718,7 @@
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWX_YL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWZNgL7sEem8QL0Ty-Eieg" text="Controls visual features of Menu Box, padding etc.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param menuBox&#xD;&#xA;&#x9; *            - passes HBox from inside stage." item="_jUFVML7oEem8QL0Ty-Eieg">
     <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcL7sEem8QL0Ty-Eieg"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8bgv0L7sEem8QL0Ty-Eieg" sourceConnectionVisual="_8bh98L7sEem8QL0Ty-Eieg" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_8aifcL7sEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A4VgcL7tEem8QL0Ty-Eieg" sourceConnectionVisual="_A4Vgcb7tEem8QL0Ty-Eieg" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_A4TEML7tEem8QL0Ty-Eieg"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
