@@ -7,6 +7,7 @@ import javafx.scene.shape.Rectangle;
  * @author: Zong Shi
  * @create 2019-08-13 12:58
  */
+
 public class Cell extends Rectangle{
   int x;
   int y;
@@ -22,7 +23,6 @@ public class Cell extends Rectangle{
     r = new Rectangle();
     r.setHeight(10);
     r.setWidth(10);
-   
     
   }
 
@@ -60,7 +60,7 @@ public class Cell extends Rectangle{
   
   public Rectangle getRect() {
 	  if (currentStatus == false) {
-		  r.setFill(Color.BURLYWOOD);
+		  r.setFill(Color.BLACK);
 		  return r;
 	  } else {
 		  r.setFill(Color.LIGHTBLUE);

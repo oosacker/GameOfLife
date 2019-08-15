@@ -24,9 +24,10 @@ import javafx.geometry.Insets;
  * User interface class showing employing JavaFX and fetching data from backend.
  * 
  * 
- * @author Lock, Samuel; Bollineni Dharani,
- * @contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com
+ * @author Lock, Samuel; Bollineni, Dharani; Hasegawa, Natsuki; Shi, Zong. 
+ * @contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com; hasenats@myvuw.ac.nz; shizong@myvuw@myvuw.ac.nz.
  * @create 13Aug19
+ * @version: 1.0
  */
 
 public class UserInterface extends Application {
@@ -39,80 +40,85 @@ public class UserInterface extends Application {
 	 * Controls whether world is running or stopped.
 	 */
 	private boolean startStop = false;
-	private static DynamicArray dy;
+	/**
+	 * Initialises dynamic array object.
+	 */
+	private DynamicArray dy;
 
+	/**
+	 * Stage contains all the objects of a JavaFX application
+	 * 
+	 * @param mainStage : is stage object which is passed as an argument to the start() 
+	 * In start() we used differnt layouts like VBox, HBox,GridPane 
+	 * Different layouts has nodes like button and other layouts.
+	 * lifeGrid is a GridPane is for displaying the cells
+	 * bottomPane is a VBox that holds all the buttons and layouts
+	 * secondPane is a HBox to hold menu and gridpane.
+	 * menuBox is a VBox contains buttons
+	 *  
+	 * 
+	 * 
+	 */
 	public void start(Stage mainStage) throws Exception {
-
+	
+		
+		VBox menuBox = new VBox();
+		GridPane lifeGrid = new GridPane();
+		VBox bottomPane = new VBox(); // CREAteS MAIN VERTICAL BOX
+		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.
 		
 		// INITIAL ONSCREEN DISPLAY
 		Text welcomeText = new Text("Conway's Game of Life"); 
-		welcomeText.setStyle("-fx-font: 30 timesnewroman;");
-		
-		
-		
-		VBox menuBox = new VBox();
-		createMenu(menuBox);
-
-		GridPane lifeGrid = new GridPane();
+		welcomeText.setStyle("-fx-font: 30 ariel;");
+		createMenu(menuBox);		
 		createGridPane(lifeGrid);
-
-		VBox bottomPane = new VBox(); // CREAteS MAIN VERTICAL BOX
+		createSecondLayer(secondPane);
+		
 		
 		
 		bottomPane.getChildren().add(welcomeText);
-		bottomPane.setAlignment(Pos.CENTER);
-		
-		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.
-		//createSecondLayer(secondPane);
+		bottomPane.setAlignment(Pos.CENTER);		
 		secondPane.getChildren().add(menuBox); // ADDS MENU TO MAIN VERTICAL BOX
 		secondPane.getChildren().add(lifeGrid); // Adds lifegrid to bottompane beneath menu box
-		
-		
 		bottomPane.getChildren().add(secondPane);
+		
+		
 		Scene mainScene = new Scene(bottomPane); // ADDS VBOX TO SCENE
-		mainStage.setWidth(800);
-		mainStage.setHeight(600);
+		mainStage.setWidth(900);
+		mainStage.setHeight(800);
 
 		mainStage.setScene(mainScene); // ADDS ENTIRE SCENE TO MAINSTAGE
 
 		// START MENU BUTTONS
-		Button startBtn = new Button("Start");		
+		Button startBtn = new Button("Start");
+		buttonStyle(startBtn, menuBox);
 		Button repeatBtn = new Button("Repeat Pattern");
+		buttonStyle(repeatBtn, menuBox);
 		Button toadBtn = new Button("Toad Pattern");
-		Button beaconBtn = new Button("Beacon Pattern");
-		Button spaceshipBtn = new Button("Spaceship Pattern");
+		buttonStyle(toadBtn, menuBox);
+		
 		Button germBtn = new Button("Germs Pattern");
+		buttonStyle(germBtn, menuBox);
+		Button spaceshipBtn = new Button("Spaceship Pattern");
+		buttonStyle(spaceshipBtn, menuBox);
 		Button closeBtn = new Button("Close Program");
+		buttonStyle(closeBtn, menuBox);
 		
-		Button clearBtn = new Button("Clear screen");
 		
-		closeBtn.setMinWidth(80);
 		
 		menuBox.getChildren().add(startBtn);
 		menuBox.getChildren().add(repeatBtn);
 		menuBox.getChildren().add(toadBtn);
-		menuBox.getChildren().add(beaconBtn);
-		menuBox.getChildren().add(spaceshipBtn);
 		menuBox.getChildren().add(germBtn);
+		menuBox.getChildren().add(spaceshipBtn);
 		menuBox.getChildren().add(closeBtn);
+		dy = new DynamicArray();   // creating the dynamicarray object
 		
 		
-		
-		menuBox.getChildren().add(clearBtn);
-		
-		clearBtn.setOnAction(e->{
-			lifeGrid.getChildren().clear();
-		});
-		
-		
-		
-		
-		dy= new DynamicArray();
 		// SETS SPEED OF ANIMATION update
 		KeyFrame frame = new KeyFrame(Duration.millis(worldSpeed), new EventHandler<ActionEvent>() {
 
 			public void handle(ActionEvent event) {
-				
 				lifeGrid.getChildren().clear();
 				
 				int maxSize = 68;
@@ -121,21 +127,24 @@ public class UserInterface extends Application {
 						}
 			
 				for(int i=0;i<maxSize;i++)
-				{	for(int j=0;j<maxSize;j++)
-					{	
-						
-					lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);
-										
+				{
+					for(int j=0;j<maxSize;j++)
+					{
+						// call the getRect() in the cell class and add it is add to the gridpane
+						lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j); 
 					}
-				}	
-//				for(int i=0;i<dy.getArr().length;i++)
-//				{	for(int j=0;j<dy.getArr().length;j++)
-//					{	lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);
-//										}
-//				}	
-				dy.extendsArray();
-				dy.updateStatus();
-				dy.swapArr();
+				}
+				dy.extendsArray();	 // helps to extend the array size if needed
+				dy.updateStatus();   // update dynamic array to next generation
+				dy.swapArr();		 // get the next generation array(updated array)
+
+
+				if(dy.getNum() < dy.getArr().length)
+		        {
+		            dy.shrinkArray();
+		        }
+				
+				
 
 			}
 		});
@@ -151,18 +160,18 @@ public class UserInterface extends Application {
 					tl.play();
 					startStop = true;
 					startBtn.setText("Pause");
-					System.out.println("Click Start");
+					
 					lifeGrid.getChildren().removeAll();
 				} else if (startStop == true) {
 					tl.pause();
 					startBtn.setText("Start");
 					startStop = false;
-					System.out.println("Click Pause");
 				}
 			}
 
 		});
 		
+		//Blinker patten
 		repeatBtn.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
 				dy.arrIni[3][4].setCurrentStatus(true);
@@ -172,6 +181,7 @@ public class UserInterface extends Application {
 
 		});
 		
+		// Toad pattern
 		toadBtn.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
 				dy.arrIni[2][2].setCurrentStatus(true);
@@ -186,19 +196,32 @@ public class UserInterface extends Application {
 
 		});
 		
-		beaconBtn.setOnAction(new EventHandler<ActionEvent>() {
+		// Grem pattern
+		germBtn.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
 
-				dy.arrIni[3][3].setCurrentStatus(true);
-				dy.arrIni[3][4].setCurrentStatus(true);
-				dy.arrIni[4][3].setCurrentStatus(true);
-				dy.arrIni[5][6].setCurrentStatus(true);
-				dy.arrIni[6][5].setCurrentStatus(true);
-				dy.arrIni[5][6].setCurrentStatus(true);
+				dy.arrIni[3][1].setCurrentStatus(true);
+                dy.arrIni[4][1].setCurrentStatus(true);
+                dy.arrIni[5][1].setCurrentStatus(true);    
+                dy.arrIni[3][2].setCurrentStatus(true);
+                dy.arrIni[2][3].setCurrentStatus(true);
+                dy.arrIni[2][4].setCurrentStatus(true);
+                dy.arrIni[2][5].setCurrentStatus(true);
+                dy.arrIni[4][4].setCurrentStatus(true);
+                dy.arrIni[5][4].setCurrentStatus(true);
+                dy.arrIni[6][4].setCurrentStatus(true);
+                dy.arrIni[5][6].setCurrentStatus(true);
+                dy.arrIni[1][7].setCurrentStatus(true);
+                dy.arrIni[2][7].setCurrentStatus(true);
+                dy.arrIni[3][7].setCurrentStatus(true);
+
+
 			}
 
 		});
 		
+		
+		//SpaceShip Pattern 
 		spaceshipBtn.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
 		
@@ -220,76 +243,17 @@ public class UserInterface extends Application {
 
 		});
 		
-		germBtn.setOnAction(new EventHandler<ActionEvent>() {
-			public void handle(ActionEvent event) {
-		
-				dy.arrIni[3][1].setCurrentStatus(true);
-                dy.arrIni[4][1].setCurrentStatus(true);
-                dy.arrIni[5][1].setCurrentStatus(true);    
-                dy.arrIni[3][2].setCurrentStatus(true);
-                dy.arrIni[2][3].setCurrentStatus(true);
-                dy.arrIni[2][4].setCurrentStatus(true);
-                dy.arrIni[2][5].setCurrentStatus(true);
-                dy.arrIni[4][4].setCurrentStatus(true);
-                dy.arrIni[5][4].setCurrentStatus(true);
-                dy.arrIni[6][4].setCurrentStatus(true);
-                dy.arrIni[5][6].setCurrentStatus(true);
-                dy.arrIni[1][7].setCurrentStatus(true);
-                dy.arrIni[2][7].setCurrentStatus(true);
-                dy.arrIni[3][7].setCurrentStatus(true);
-
-			}
-
-		});
-		
 		closeBtn.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
-				
-				
-//				for(int i=0;i < dy.getArr().length;i++)
-//				{
-//					for(int j=0;j<dy.getArr().length;j++)
-//					{
-//						
-//						
-//							dy.arrIni[i][j] = null;
-//						
-//					}
-//				}
-				
-				lifeGrid.getChildren().removeAll();
-				dy=null;
-				bottomPane.getChildren().clear();
+			
 				mainStage.close();
-			    Platform.runLater( () -> {
-					try {
-						new UserInterface().start( new Stage() );
-					} catch (Exception e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				} );
-//				mainScene.getClass().clo
-//				
-//				mainStage.close();
-//				
-//				try {
-//					reStart(mainStage);
-//				} catch (Exception e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//				dy = new DynamicArray();				 
+
 			}
 
 		});
 		
 
 		mainStage.show(); // SHOWS MAINSTAGE ON SCREEN
-	}
-	public void reStart(Stage mainStage) throws Exception
-	{
-		start(mainStage);
 	}
 
 	/**
@@ -299,25 +263,76 @@ public class UserInterface extends Application {
 	 *            - passes HBox from inside stage.
 	 */
 
+	
+	/**
+	 * Stylises menu vBox; amends children.
+	 * @param menuBox
+	 */
 	public void createMenu(VBox menuBox) {
 		menuBox.setAlignment(Pos.CENTER);
 		menuBox.setSpacing(20);
 		menuBox.prefHeight(700);
 		menuBox.setMinHeight(700);
+		menuBox.setMinWidth(80);
+		menuBox.prefWidth(80);
 		menuBox.setPadding(new Insets (10));
-		
-
-		// TODO SET SPACING PADDING, BUTTON WIDTH
 	}
 	
+	/**
+	 * 
+	 * Stylises buttons when used.
+	 * 
+	 * @param butt - button object
+	 * @param menu - menubox. 
+	 */
+	public void buttonStyle(Button butt, VBox menu) {
+		butt.setPrefWidth(100);
+	}
+	
+	
+	/**
+	 * Sets padding on object to ensure no side by sides.
+	 * @param s
+	 */
 	public void createSecondLayer(HBox s) {
 		s.setPadding( new Insets(15));
 	}
+	
+	/**
+	 * Stylises gridpane, sets alignment.
+	 * @param lifeGrid
+	 */
 
 	public void createGridPane(GridPane lifeGrid) {
 		lifeGrid.setMinSize(700, 700);
 		lifeGrid.setAlignment(Pos.CENTER);
 		
+	}
+	
+	
+	/**
+	 * Restarts program on request. 
+	 * 
+	 * @param lifeGrid
+	 * @param bottomPane
+	 * @param mainStage
+	 */
+	public void restart(GridPane lifeGrid, VBox bottomPane, Stage mainStage) {
+		
+                
+                lifeGrid.getChildren().removeAll();
+        
+                
+                bottomPane.getChildren().clear();
+                mainStage.close();
+                Platform.runLater( () -> {
+                    try {
+                        new UserInterface().start( new Stage() );
+                    } catch (Exception e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
+                } );
 	}
 	
 	/**
@@ -348,5 +363,3 @@ public class UserInterface extends Application {
 	}
 
 }
-
-

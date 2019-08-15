@@ -47,9 +47,7 @@
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_YQuAkL5HEemAFunI8rPp5w" name="TimeUnit"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_YRNIwL5HEemAFunI8rPp5w" name="lang">
-        <packagedElement xmi:type="uml:Class" xmi:id="_YRNIwb5HEemAFunI8rPp5w" name="Exception"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YRNIwL5HEemAFunI8rPp5w" name="lang"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_YPOLwL5HEemAFunI8rPp5w" name="javafx">
       <packagedElement xmi:type="uml:Package" xmi:id="_YPOLwb5HEemAFunI8rPp5w" name="animation">
@@ -784,7 +782,7 @@
 		}
 	</body>
       </ownedBehavior>
-      <ownedOperation xmi:id="_YQG8kL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRpNo75HEemAFunI8rPp5w" raisedException="_YRNIwb5HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_YQG8kL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRpNo75HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YQG8kb5HEemAFunI8rPp5w" name="args">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQHjoL5HEemAFunI8rPp5w" value="*"/>
@@ -1115,13 +1113,13 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQLOAr5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_YRPlAL5HEemAFunI8rPp5w" name="start" method="_YRpNpr5HEemAFunI8rPp5w" raisedException="_YRNIwb5HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_YRPlAL5HEemAFunI8rPp5w" name="start" method="_YRpNpr5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRPlAb5HEemAFunI8rPp5w" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
       </ownedOperation>
       <ownedOperation xmi:id="_YRQMEL5HEemAFunI8rPp5w" name="createSecondLayer" method="_YRp0sr5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRQMEb5HEemAFunI8rPp5w" name="s" type="_YQ8qEb5HEemAFunI8rPp5w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_jTnbIL7oEem8QL0Ty-Eieg" name="reStart" method="_jT7kML7oEem8QL0Ty-Eieg" raisedException="_YRNIwb5HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_jTnbIL7oEem8QL0Ty-Eieg" name="reStart" method="_jT7kML7oEem8QL0Ty-Eieg">
         <ownedParameter xmi:id="_jTnbIb7oEem8QL0Ty-Eieg" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
       </ownedOperation>
       <ownedOperation xmi:id="_jTnbIr7oEem8QL0Ty-Eieg" name="createMenu" method="_jT7kMr7oEem8QL0Ty-Eieg">
@@ -1185,7 +1183,6 @@
   <UMLLabProfile:Reference xmi:id="_YRD-0L5HEemAFunI8rPp5w" base_Element="_YRCwsb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YRFM8L5HEemAFunI8rPp5w" base_Element="_YRD-0b5HEemAFunI8rPp5w"/>
   <UMLLabProfile:Reference xmi:id="_YRF0AL5HEemAFunI8rPp5w" base_Element="_YRFM8b5HEemAFunI8rPp5w"/>
-  <UMLLabProfile:Reference xmi:id="_YRNv0L5HEemAFunI8rPp5w" base_Element="_YRNIwb5HEemAFunI8rPp5w"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YRTPYL5HEemAFunI8rPp5w" base_Element="_YRSoUL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YRT2cb5HEemAFunI8rPp5w" base_Element="_YRT2cL5HEemAFunI8rPp5w"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YRUdgb5HEemAFunI8rPp5w" base_Element="_YRUdgL5HEemAFunI8rPp5w"/>

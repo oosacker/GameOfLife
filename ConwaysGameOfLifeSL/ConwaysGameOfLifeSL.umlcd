@@ -6,24 +6,23 @@
     </contents>
   </eAnnotations>
   <modelElement href="ConwaysGameOfLifeSL.uml#_X6FpQL5HEemAFunI8rPp5w"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YkZKgL5HEemAFunI8rPp5w" sourceAnchor="170.0,0.0" targetAnchor="0.0,145.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YkZKgL5HEemAFunI8rPp5w" sourceAnchor="293.0,15.0" targetAnchor="0.0,319.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YRwiYL5HEemAFunI8rPp5w"/>
-    <bendpoints xmi:id="_Y1pSkL5HEemAFunI8rPp5w" sourceY="-199" targetX="-236"/>
     <stereotypes xmi:id="_YkZKgb5HEemAFunI8rPp5w" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgL5HEemAFunI8rPp5w"/>
     </stereotypes>
     <nameVisual xmi:id="_YkZKgr5HEemAFunI8rPp5w" text="">
-      <visualProperties xmi:id="_Y1rHwL5HEemAFunI8rPp5w" position="-21.998907518236393,41.83844597146566"/>
+      <visualProperties xmi:id="_Y1rHwL5HEemAFunI8rPp5w" position="-9.0,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_YkZKg75HEemAFunI8rPp5w" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRwiYb5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1qgsL5HEemAFunI8rPp5w" position="17.241720068097038,-68.00044184670521"/>
+      <visualProperties xmi:id="_Y1qgsL5HEemAFunI8rPp5w" position="11.0,2.0"/>
       <visibility xmi:id="_YkZKhL5HEemAFunI8rPp5w" label="+"/>
       <cardinality xmi:id="_YkZxkL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_YkZxkb5HEemAFunI8rPp5w" aggregationKind="NONE" name="arrIni" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRW5wb5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1ru0L5HEemAFunI8rPp5w" position="-69.22073416906039,9.895542033287882"/>
+      <visualProperties xmi:id="_Y1ru0L5HEemAFunI8rPp5w" position="-60.0,-47.0"/>
       <stereotypes xmi:id="_LdXxAL7jEem8QL0Ty-Eieg" name="Array">
         <modelElement href="ConwaysGameOfLifeSL.uml#_YRW5w75HEemAFunI8rPp5w"/>
       </stereotypes>
@@ -34,24 +33,24 @@
       <cardinality xmi:id="_YkZxk75HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Yka_sL5HEemAFunI8rPp5w" sourceAnchor="140.0,0.0" targetAnchor="0.0,115.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Yka_sL5HEemAFunI8rPp5w" sourceAnchor="146.0,0.0" targetAnchor="0.0,164.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgb5HEemAFunI8rPp5w"/>
-    <bendpoints xmi:id="_Y1p5oL5HEemAFunI8rPp5w" sourceY="-229" targetX="-266"/>
+    <bendpoints xmi:id="_fH1nIL78Eem8QL0Ty-Eieg" sourceY="-140" targetX="-240"/>
     <stereotypes xmi:id="_Yka_sb5HEemAFunI8rPp5w" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRy-oL5HEemAFunI8rPp5w"/>
     </stereotypes>
     <nameVisual xmi:id="_Yka_sr5HEemAFunI8rPp5w" text="">
-      <visualProperties xmi:id="_Y1s88L5HEemAFunI8rPp5w" position="-21.998907518236393,71.83844597146566"/>
+      <visualProperties xmi:id="_Y1s88L5HEemAFunI8rPp5w" position="41.0,2.8421709430404007E-14"/>
     </nameVisual>
     <sourceRole xmi:id="_Yka_s75HEemAFunI8rPp5w" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgr5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1sV4L5HEemAFunI8rPp5w" position="-40.75827993190296,-68.00044184670521"/>
+      <visualProperties xmi:id="_Y1sV4L5HEemAFunI8rPp5w" position="1.0,-100.0"/>
       <visibility xmi:id="_Yka_tL5HEemAFunI8rPp5w" label="+"/>
       <cardinality xmi:id="_Yka_tb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_Yka_tr5HEemAFunI8rPp5w" aggregationKind="NONE" name="arrNext" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRXg0b5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1s88b5HEemAFunI8rPp5w" position="-77.22073416906039,-53.10445796671212"/>
+      <visualProperties xmi:id="_Y1s88b5HEemAFunI8rPp5w" position="-92.0,0.9999999999999716"/>
       <stereotypes xmi:id="_LdZmML7jEem8QL0Ty-Eieg" name="Array">
         <modelElement href="ConwaysGameOfLifeSL.uml#_YRXg075HEemAFunI8rPp5w"/>
       </stereotypes>
@@ -62,19 +61,23 @@
       <cardinality xmi:id="_Yka_uL5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jUchkL7oEem8QL0Ty-Eieg" target="_Yka_ub5HEemAFunI8rPp5w" source="_YlpHsL5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jUchkL7oEem8QL0Ty-Eieg" sourceAnchor="181.0,194.0" targetAnchor="15.0,0.0" target="_Yka_ub5HEemAFunI8rPp5w" source="_YlpHsL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_jT8yUL7oEem8QL0Ty-Eieg"/>
     <stereotypes xmi:id="_jUchkb7oEem8QL0Ty-Eieg" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT-AcL7oEem8QL0Ty-Eieg"/>
     </stereotypes>
-    <nameVisual xmi:id="_jUchkr7oEem8QL0Ty-Eieg" text=""/>
+    <nameVisual xmi:id="_jUchkr7oEem8QL0Ty-Eieg" text="">
+      <visualProperties xmi:id="_dhU8UL78Eem8QL0Ty-Eieg" position="2.0,-7.999999999999993"/>
+    </nameVisual>
     <sourceRole xmi:id="_jUchk77oEem8QL0Ty-Eieg" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT8yUb7oEem8QL0Ty-Eieg"/>
+      <visualProperties xmi:id="_dhTuML78Eem8QL0Ty-Eieg" position="-56.00000000000001,0.9999999999999929"/>
       <visibility xmi:id="_jUchlL7oEem8QL0Ty-Eieg" label="+"/>
       <cardinality xmi:id="_jUchlb7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_jUchlr7oEem8QL0Ty-Eieg" aggregationKind="NONE" name="dy" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT6WEL7oEem8QL0Ty-Eieg"/>
+      <visualProperties xmi:id="_dhU8Ub78Eem8QL0Ty-Eieg" position="-30.0,-52.0"/>
       <stereotypes xmi:id="_jYTG0L7oEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
       <visibility xmi:id="_jUchl77oEem8QL0Ty-Eieg" label="-"/>
       <cardinality xmi:id="_jUchmL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
@@ -119,9 +122,92 @@
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWQDkL7sEem8QL0Ty-Eieg" targetItem="_YlpHwb5HEemAFunI8rPp5w" sourceItem="_cWNAQL7sEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWZNgL7sEem8QL0Ty-Eieg" targetItem="_jUFVML7oEem8QL0Ty-Eieg" sourceItem="_cWX_YL7sEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RaN-Yb7tEem8QL0Ty-Eieg" targetItem="_Yl0t4L5HEemAFunI8rPp5w" sourceItem="_RaN-YL7tEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yq5HIL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" text="DynamicArray - logic code for the Game of Life.&#xA;&#xA;@author: Zong Shi, Natsuki Hasegawa&#xA;@version: 1.0" item="_Yka_ub5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqzAgL7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrLbAL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrMCEL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method doubles the size of the 2D array in case a live cell exists in the row/column which is next to the boundary of 2D array. We start the loop from i = 1 and end by arrIni.length-1, because the design will not set live cell to the position next to the boundary." item="_Ykbm075HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkL7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrQTgL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrQTgb7oEem8QL0Ty-Eieg" text="This method creates an empty array that is double the size of the current 2D array. The current 2D array will be placed in the center part of the extended array. This method will return the double sized array.&#xA;&#x9; * @return arr the extended cell array." item="_Ykbm1r5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkr7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrT94L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrUk8L7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method updates the nextStatus of each cell. Only cells that will be alive in the next iteration will be updated, as the default setting of nextStatus is &quot;false&quot;.&#xA;&#x9; *" item="_Ykbm3L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznk77oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yuplwL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yuqM0L7oEem8QL0Ty-Eieg" text="This method will check the top/bottom/right/left part of current array, if no live cells exist within scale/2 to the 2D array boundary, current array will shrink to half size and replace the current 2D array." item="_Ykbm375HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkb7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yuvFUL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yuvsYL7oEem8QL0Ty-Eieg" text="This method will check the top/bottom/right/left part of the current array. If no live cells exist within scale/2 to the 2D array boundary, the current array will shrink to half size and replace the current 2D array.&#xA;&#x9; * @return cellShrink Shrunken cell array." item="_Ykbm4r5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlr7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvDOYL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvD1cL7oEem8QL0Ty-Eieg" text=" &#xA;&#x9; * This method will update the initial array to represent the next generation of life.&#xA;&#x9; *" item="_Ykbm6L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznl77oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvIG4L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvIt8L7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * Returns the data array to the GUI.&#xA;&#x9; * @return arrIni Data array arrIni.&#xA;&#x9; *" item="_Ykbm675HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmL7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yveFIL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvmA8L7oEem8QL0Ty-Eieg" text="Returns the next state array.&#xA;&#x9; * @return arrNext Next state array.&#xA;&#x9; *" item="_Ykbm8b5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmb7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvq5cL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvrggL7oEem8QL0Ty-Eieg" text="Returns the scale factor.&#xA;&#x9; * @return scale Scale factor." item="_Ykbm975HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmr7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvuj0L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yv7_ML7oEem8QL0Ty-Eieg" text="Returns the array size.&#xA;&#x9; * @return num Array size." item="_Ykbm_L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznm77oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ywRWYL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_ywR9cL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method will create a copy of main 2D array, and the currentStatus of each cell will be replaced by its nextStatus. The nextStatus will also be replaced by &quot;false&quot; as default. &#xA;&#x9; * @param arr Cell array to copy.&#xA;&#x9; * @return tempNextGen Updated cell array.&#xA;&#x9; *" item="_YkbnCr5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlL7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ywW18L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_ywk4YL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method is used to count how many live cells are near the input Cell. &#xA;&#x9; * @param c Cell object to check.&#xA;&#x9; * @return counter Total number of adjacent live cells.&#xA;&#x9; *" item="_YkbnE75HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlb7oEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Il3ewL7rEem8QL0Ty-Eieg" sourceConnectionVisual="_Il4F0L7rEem8QL0Ty-Eieg" text="@program DynamicArray&#xA;@description:&#xA;@author: Zong Shi&#xA;@create 2019-08-13 12:58" item="_Yl7bkL5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_IlxYIL7rEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cV43ML7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cV6sYL7sEem8QL0Ty-Eieg" text="User interface class showing employing JavaFX and fetching data from backend.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;@author Lock, Samuel; Bollineni Dharani,&#xD;&#xA;@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com&#xD;&#xA;@create 13Aug19" item="_YlpHsL5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_cVToYL7sEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWNAQL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWQDkL7sEem8QL0Ty-Eieg" text="Launches JavaFX&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param args" item="_YlpHwb5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcb7sEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWX_YL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWZNgL7sEem8QL0Ty-Eieg" text="Controls visual features of Menu Box, padding etc.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param menuBox&#xD;&#xA;&#x9; *            - passes HBox from inside stage." item="_jUFVML7oEem8QL0Ty-Eieg">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcL7sEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RaN-YL7tEem8QL0Ty-Eieg" sourceConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_RaLiIL7tEem8QL0Ty-Eieg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_RaN-YL7tEem8QL0Ty-Eieg" targetConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" name="Main">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_YQFHYL5HEemAFunI8rPp5w"/>
+    <visualProperties xmi:id="_Yl0t4b5HEemAFunI8rPp5w" position="497.0,185.0" size="193.0,133.0"/>
+    <visibility xmi:id="_Yl0t4r5HEemAFunI8rPp5w" label="+"/>
+    <operations xmi:id="_Yl0t475HEemAFunI8rPp5w" name="main" staticOperation="true">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YQG8kL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl0t5L5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl0t5b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl0t5r5HEemAFunI8rPp5w" name="args">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YQG8kb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl0t575HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Yl0t6L5HEemAFunI8rPp5w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yl0t6b5HEemAFunI8rPp5w" name="print" staticOperation="true">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YQwc0L5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl0t6r5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl0t675HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl0t7L5HEemAFunI8rPp5w" name="testArr">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YQwc0b5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl0t7b5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Yl0t7r5HEemAFunI8rPp5w" name="Cell">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yka_ub5HEemAFunI8rPp5w" comments="_yq5HIL7oEem8QL0Ty-Eieg" targetConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" name="DynamicArray" associationsIn="_jUchkL7oEem8QL0Ty-Eieg" associationsOut="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YP1PwL5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yka_ur5HEemAFunI8rPp5w" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_Yka_ur5HEemAFunI8rPp5w" position="105.0,68.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_Yka_u75HEemAFunI8rPp5w" label="+"/>
     <attributes xmi:id="_Yka_vL5HEemAFunI8rPp5w" defaultValue="10" name="num" staticAttribute="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRVroL5HEemAFunI8rPp5w"/>
@@ -320,38 +406,9 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_RaN-YL7tEem8QL0Ty-Eieg" targetConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" name="Main">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_YQFHYL5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yl0t4b5HEemAFunI8rPp5w" position="422.0,147.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_Yl0t4r5HEemAFunI8rPp5w" label="+"/>
-    <operations xmi:id="_Yl0t475HEemAFunI8rPp5w" name="main" staticOperation="true">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YQG8kL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl0t5L5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl0t5b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl0t5r5HEemAFunI8rPp5w" name="args">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YQG8kb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl0t575HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_Yl0t6L5HEemAFunI8rPp5w" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yl0t6b5HEemAFunI8rPp5w" name="print" staticOperation="true">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YQwc0L5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl0t6r5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl0t675HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl0t7L5HEemAFunI8rPp5w" name="testArr">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YQwc0b5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl0t7b5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_Yl0t7r5HEemAFunI8rPp5w" name="Cell">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl7bkL5HEemAFunI8rPp5w" comments="_Il3ewL7rEem8QL0Ty-Eieg" targetConnectionVisual="_Il4F0L7rEem8QL0Ty-Eieg" name="Cell" associationsIn="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w" associationsOut="_q6Lj4L7oEem8QL0Ty-Eieg" generalizations="_Il7JIL7rEem8QL0Ty-Eieg">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yl8CoL5HEemAFunI8rPp5w" position="436.0,-314.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_Yl8CoL5HEemAFunI8rPp5w" position="491.0,-236.0" size="332.0,327.0"/>
     <visibility xmi:id="_Yl8Cob5HEemAFunI8rPp5w" label="+"/>
     <attributes xmi:id="_Yl8Cor5HEemAFunI8rPp5w" name="x">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRSoUL5HEemAFunI8rPp5w"/>
@@ -552,17 +609,9 @@
       </outParameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlyRoL5HEemAFunI8rPp5w" name="Exception">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_YRNIwb5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_YlyRob5HEemAFunI8rPp5w" position="420.0,330.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_YlyRor5HEemAFunI8rPp5w" name="Reference">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRNv0L5HEemAFunI8rPp5w"/>
-    </stereotypes>
-    <visibility xmi:id="_Yly4sL5HEemAFunI8rPp5w" label="+"/>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlpHsL5HEemAFunI8rPp5w" comments="_cV43ML7sEem8QL0Ty-Eieg" targetConnectionVisual="_cV6sYL7sEem8QL0Ty-Eieg" name="UserInterface" associationsOut="_jUchkL7oEem8QL0Ty-Eieg">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YQJY0L5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_YlpHsb5HEemAFunI8rPp5w" position="-177.0,-232.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_YlpHsb5HEemAFunI8rPp5w" position="-61.0,-191.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_YlpHsr5HEemAFunI8rPp5w" label="+"/>
     <attributes xmi:id="_YlpHs75HEemAFunI8rPp5w" defaultValue="100" name="worldSpeed">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRYH4b5HEemAFunI8rPp5w"/>
@@ -666,59 +715,5 @@
         </type>
       </parameters>
     </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yq5HIL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" text="DynamicArray - logic code for the Game of Life.&#xA;&#xA;@author: Zong Shi, Natsuki Hasegawa&#xA;@version: 1.0" item="_Yka_ub5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqzAgL7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrLbAL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrMCEL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method doubles the size of the 2D array in case a live cell exists in the row/column which is next to the boundary of 2D array. We start the loop from i = 1 and end by arrIni.length-1, because the design will not set live cell to the position next to the boundary." item="_Ykbm075HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkL7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrQTgL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrQTgb7oEem8QL0Ty-Eieg" text="This method creates an empty array that is double the size of the current 2D array. The current 2D array will be placed in the center part of the extended array. This method will return the double sized array.&#xA;&#x9; * @return arr the extended cell array." item="_Ykbm1r5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkr7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yrT94L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yrUk8L7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method updates the nextStatus of each cell. Only cells that will be alive in the next iteration will be updated, as the default setting of nextStatus is &quot;false&quot;.&#xA;&#x9; *" item="_Ykbm3L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznk77oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yuplwL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yuqM0L7oEem8QL0Ty-Eieg" text="This method will check the top/bottom/right/left part of current array, if no live cells exist within scale/2 to the 2D array boundary, current array will shrink to half size and replace the current 2D array." item="_Ykbm375HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznkb7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yuvFUL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yuvsYL7oEem8QL0Ty-Eieg" text="This method will check the top/bottom/right/left part of the current array. If no live cells exist within scale/2 to the 2D array boundary, the current array will shrink to half size and replace the current 2D array.&#xA;&#x9; * @return cellShrink Shrunken cell array." item="_Ykbm4r5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlr7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvDOYL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvD1cL7oEem8QL0Ty-Eieg" text=" &#xA;&#x9; * This method will update the initial array to represent the next generation of life.&#xA;&#x9; *" item="_Ykbm6L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznl77oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvIG4L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvIt8L7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * Returns the data array to the GUI.&#xA;&#x9; * @return arrIni Data array arrIni.&#xA;&#x9; *" item="_Ykbm675HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmL7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yveFIL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvmA8L7oEem8QL0Ty-Eieg" text="Returns the next state array.&#xA;&#x9; * @return arrNext Next state array.&#xA;&#x9; *" item="_Ykbm8b5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmb7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvq5cL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yvrggL7oEem8QL0Ty-Eieg" text="Returns the scale factor.&#xA;&#x9; * @return scale Scale factor." item="_Ykbm975HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznmr7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yvuj0L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yv7_ML7oEem8QL0Ty-Eieg" text="Returns the array size.&#xA;&#x9; * @return num Array size." item="_Ykbm_L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznm77oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ywRWYL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_ywR9cL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method will create a copy of main 2D array, and the currentStatus of each cell will be replaced by its nextStatus. The nextStatus will also be replaced by &quot;false&quot; as default. &#xA;&#x9; * @param arr Cell array to copy.&#xA;&#x9; * @return tempNextGen Updated cell array.&#xA;&#x9; *" item="_YkbnCr5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlL7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ywW18L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_ywk4YL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method is used to count how many live cells are near the input Cell. &#xA;&#x9; * @param c Cell object to check.&#xA;&#x9; * @return counter Total number of adjacent live cells.&#xA;&#x9; *" item="_YkbnE75HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlb7oEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Il3ewL7rEem8QL0Ty-Eieg" sourceConnectionVisual="_Il4F0L7rEem8QL0Ty-Eieg" text="@program DynamicArray&#xA;@description:&#xA;@author: Zong Shi&#xA;@create 2019-08-13 12:58" item="_Yl7bkL5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_IlxYIL7rEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cV43ML7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cV6sYL7sEem8QL0Ty-Eieg" text="User interface class showing employing JavaFX and fetching data from backend.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;@author Lock, Samuel; Bollineni Dharani,&#xD;&#xA;@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com&#xD;&#xA;@create 13Aug19" item="_YlpHsL5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVToYL7sEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWNAQL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWQDkL7sEem8QL0Ty-Eieg" text="Launches JavaFX&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param args" item="_YlpHwb5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcb7sEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWX_YL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWZNgL7sEem8QL0Ty-Eieg" text="Controls visual features of Menu Box, padding etc.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param menuBox&#xD;&#xA;&#x9; *            - passes HBox from inside stage." item="_jUFVML7oEem8QL0Ty-Eieg">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcL7sEem8QL0Ty-Eieg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RaN-YL7tEem8QL0Ty-Eieg" sourceConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_RaLiIL7tEem8QL0Ty-Eieg"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
