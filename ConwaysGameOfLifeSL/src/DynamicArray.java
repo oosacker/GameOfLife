@@ -22,14 +22,6 @@ public class DynamicArray {
 			}
 		}
 
-		arrIni[2][4].setCurrentStatus(true);
-		arrIni[3][3].setCurrentStatus(true);
-		arrIni[3][4].setCurrentStatus(true);
-		arrIni[3][5].setCurrentStatus(true);
-		arrIni[4][3].setCurrentStatus(true);
-		arrIni[4][5].setCurrentStatus(true);
-		arrIni[5][4].setCurrentStatus(true);
-
 	}
 
 	/**
