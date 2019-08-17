@@ -6,23 +6,23 @@
     </contents>
   </eAnnotations>
   <modelElement href="ConwaysGameOfLifeSL.uml#_X6FpQL5HEemAFunI8rPp5w"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YkZKgL5HEemAFunI8rPp5w" sourceAnchor="293.0,15.0" targetAnchor="0.0,319.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YkZKgL5HEemAFunI8rPp5w" sourceAnchor="341.0,148.0" targetAnchor="0.0,161.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YRwiYL5HEemAFunI8rPp5w"/>
     <stereotypes xmi:id="_YkZKgb5HEemAFunI8rPp5w" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgL5HEemAFunI8rPp5w"/>
     </stereotypes>
     <nameVisual xmi:id="_YkZKgr5HEemAFunI8rPp5w" text="">
-      <visualProperties xmi:id="_Y1rHwL5HEemAFunI8rPp5w" position="-9.0,2.0"/>
+      <visualProperties xmi:id="_Y1rHwL5HEemAFunI8rPp5w" position="-3.571428571428555,-19.0"/>
     </nameVisual>
     <sourceRole xmi:id="_YkZKg75HEemAFunI8rPp5w" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRwiYb5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1qgsL5HEemAFunI8rPp5w" position="11.0,2.0"/>
+      <visualProperties xmi:id="_Y1qgsL5HEemAFunI8rPp5w" position="14.58823529411768,-47.0"/>
       <visibility xmi:id="_YkZKhL5HEemAFunI8rPp5w" label="+"/>
       <cardinality xmi:id="_YkZxkL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_YkZxkb5HEemAFunI8rPp5w" aggregationKind="NONE" name="arrIni" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRW5wb5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1ru0L5HEemAFunI8rPp5w" position="-60.0,-47.0"/>
+      <visualProperties xmi:id="_Y1ru0L5HEemAFunI8rPp5w" position="-77.0,-47.0"/>
       <stereotypes xmi:id="_LdXxAL7jEem8QL0Ty-Eieg" name="Array">
         <modelElement href="ConwaysGameOfLifeSL.uml#_YRW5w75HEemAFunI8rPp5w"/>
       </stereotypes>
@@ -33,24 +33,23 @@
       <cardinality xmi:id="_YkZxk75HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Yka_sL5HEemAFunI8rPp5w" sourceAnchor="146.0,0.0" targetAnchor="0.0,164.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Yka_sL5HEemAFunI8rPp5w" sourceAnchor="341.0,178.0" targetAnchor="0.0,191.0" target="_Yl7bkL5HEemAFunI8rPp5w" source="_Yka_ub5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgb5HEemAFunI8rPp5w"/>
-    <bendpoints xmi:id="_fH1nIL78Eem8QL0Ty-Eieg" sourceY="-140" targetX="-240"/>
     <stereotypes xmi:id="_Yka_sb5HEemAFunI8rPp5w" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRy-oL5HEemAFunI8rPp5w"/>
     </stereotypes>
     <nameVisual xmi:id="_Yka_sr5HEemAFunI8rPp5w" text="">
-      <visualProperties xmi:id="_Y1s88L5HEemAFunI8rPp5w" position="41.0,2.8421709430404007E-14"/>
+      <visualProperties xmi:id="_Y1s88L5HEemAFunI8rPp5w" position="-33.428571428571445,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_Yka_s75HEemAFunI8rPp5w" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRxwgr5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1sV4L5HEemAFunI8rPp5w" position="1.0,-100.0"/>
+      <visualProperties xmi:id="_Y1sV4L5HEemAFunI8rPp5w" position="14.58823529411768,2.0"/>
       <visibility xmi:id="_Yka_tL5HEemAFunI8rPp5w" label="+"/>
       <cardinality xmi:id="_Yka_tb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_Yka_tr5HEemAFunI8rPp5w" aggregationKind="NONE" name="arrNext" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRXg0b5HEemAFunI8rPp5w"/>
-      <visualProperties xmi:id="_Y1s88b5HEemAFunI8rPp5w" position="-92.0,0.9999999999999716"/>
+      <visualProperties xmi:id="_Y1s88b5HEemAFunI8rPp5w" position="-93.39999999999998,2.0"/>
       <stereotypes xmi:id="_LdZmML7jEem8QL0Ty-Eieg" name="Array">
         <modelElement href="ConwaysGameOfLifeSL.uml#_YRXg075HEemAFunI8rPp5w"/>
       </stereotypes>
@@ -61,24 +60,27 @@
       <cardinality xmi:id="_Yka_uL5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jUchkL7oEem8QL0Ty-Eieg" sourceAnchor="181.0,194.0" targetAnchor="15.0,0.0" target="_Yka_ub5HEemAFunI8rPp5w" source="_YlpHsL5HEemAFunI8rPp5w">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jUchkL7oEem8QL0Ty-Eieg" sourceAnchor="205.0,213.0" targetAnchor="170.0,0.0" target="_Yka_ub5HEemAFunI8rPp5w" source="_YlpHsL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_jT8yUL7oEem8QL0Ty-Eieg"/>
     <stereotypes xmi:id="_jUchkb7oEem8QL0Ty-Eieg" name="Reference">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT-AcL7oEem8QL0Ty-Eieg"/>
     </stereotypes>
     <nameVisual xmi:id="_jUchkr7oEem8QL0Ty-Eieg" text="">
-      <visualProperties xmi:id="_dhU8UL78Eem8QL0Ty-Eieg" position="2.0,-7.999999999999993"/>
+      <visualProperties xmi:id="_dhU8UL78Eem8QL0Ty-Eieg" position="-43.5,22.571428571428555"/>
     </nameVisual>
     <sourceRole xmi:id="_jUchk77oEem8QL0Ty-Eieg" aggregationKind="NONE" name="">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT8yUb7oEem8QL0Ty-Eieg"/>
-      <visualProperties xmi:id="_dhTuML78Eem8QL0Ty-Eieg" position="-56.00000000000001,0.9999999999999929"/>
+      <visualProperties xmi:id="_dhTuML78Eem8QL0Ty-Eieg" position="-16.5,20.66666666666663"/>
       <visibility xmi:id="_jUchlL7oEem8QL0Ty-Eieg" label="+"/>
       <cardinality xmi:id="_jUchlb7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_jUchlr7oEem8QL0Ty-Eieg" aggregationKind="NONE" name="dy" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_jT6WEL7oEem8QL0Ty-Eieg"/>
-      <visualProperties xmi:id="_dhU8Ub78Eem8QL0Ty-Eieg" position="-30.0,-52.0"/>
+      <visualProperties xmi:id="_dhU8Ub78Eem8QL0Ty-Eieg" position="2.5,-65.66666666666669"/>
       <stereotypes xmi:id="_jYTG0L7oEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_333r0L-4EemXJIN-GWR4SQ" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_jT69IL7oEem8QL0Ty-Eieg"/>
+      </stereotypes>
       <visibility xmi:id="_jUchl77oEem8QL0Ty-Eieg" label="-"/>
       <cardinality xmi:id="_jUchmL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
     </targetRole>
@@ -97,6 +99,9 @@
     <targetRole xmi:id="_q6Lj5r7oEem8QL0Ty-Eieg" aggregationKind="NONE" name="r" navigable="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_q5jRwL7oEem8QL0Ty-Eieg"/>
       <stereotypes xmi:id="_q9Ef0L7oEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_336vIL-4EemXJIN-GWR4SQ" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_q5j40L7oEem8QL0Ty-Eieg"/>
+      </stereotypes>
       <visibility xmi:id="_q6Lj577oEem8QL0Ty-Eieg" label="~"/>
       <cardinality xmi:id="_q6Lj6L7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
     </targetRole>
@@ -114,14 +119,19 @@
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yv7_ML7oEem8QL0Ty-Eieg" targetItem="_Ykbm_L5HEemAFunI8rPp5w" sourceItem="_yvuj0L7oEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ywR9cL7oEem8QL0Ty-Eieg" targetItem="_YkbnCr5HEemAFunI8rPp5w" sourceItem="_ywRWYL7oEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ywk4YL7oEem8QL0Ty-Eieg" targetItem="_YkbnE75HEemAFunI8rPp5w" sourceItem="_ywW18L7oEem8QL0Ty-Eieg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Il4F0L7rEem8QL0Ty-Eieg" targetItem="_Yl7bkL5HEemAFunI8rPp5w" sourceItem="_Il3ewL7rEem8QL0Ty-Eieg"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Il7JIL7rEem8QL0Ty-Eieg" subClass="_Yl7bkL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZRL7oEem8QL0Ty-Eieg"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cV6sYL7sEem8QL0Ty-Eieg" targetItem="_YlpHsL5HEemAFunI8rPp5w" sourceItem="_cV43ML7sEem8QL0Ty-Eieg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWQDkL7sEem8QL0Ty-Eieg" targetItem="_YlpHwb5HEemAFunI8rPp5w" sourceItem="_cWNAQL7sEem8QL0Ty-Eieg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cWZNgL7sEem8QL0Ty-Eieg" targetItem="_jUFVML7oEem8QL0Ty-Eieg" sourceItem="_cWX_YL7sEem8QL0Ty-Eieg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_RaN-Yb7tEem8QL0Ty-Eieg" targetItem="_Yl0t4L5HEemAFunI8rPp5w" sourceItem="_RaN-YL7tEem8QL0Ty-Eieg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_4pIJoL-4EemXJIN-GWR4SQ" targetItem="_Yl7bkL5HEemAFunI8rPp5w" sourceItem="_4pHikL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_4q2A4L-4EemXJIN-GWR4SQ" targetItem="_4q2n8L-4EemXJIN-GWR4SQ" sourceItem="_4qnXYL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_4rUiAL-4EemXJIN-GWR4SQ" targetItem="_4rWXML-4EemXJIN-GWR4SQ" sourceItem="_4q5EML-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_4sFXAL-4EemXJIN-GWR4SQ" targetItem="_YlpHsL5HEemAFunI8rPp5w" sourceItem="_4rorEL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_4024gL-4EemXJIN-GWR4SQ" targetItem="_YlpHwb5HEemAFunI8rPp5w" sourceItem="_40FccL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5C2RML-4EemXJIN-GWR4SQ" targetItem="_jUFVML7oEem8QL0Ty-Eieg" sourceItem="_5C0cAL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5D1IoL-4EemXJIN-GWR4SQ" targetItem="_YlpHx75HEemAFunI8rPp5w" sourceItem="_5DSWEL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5EblkL-4EemXJIN-GWR4SQ" targetItem="_YlpH075HEemAFunI8rPp5w" sourceItem="_5EJ4wL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5FKlYL-4EemXJIN-GWR4SQ" targetItem="_jUPGML7oEem8QL0Ty-Eieg" sourceItem="_5EuggL-4EemXJIN-GWR4SQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6YDJkL-4EemXJIN-GWR4SQ" targetItem="_Yl0t4L5HEemAFunI8rPp5w" sourceItem="_6YAGQL-4EemXJIN-GWR4SQ"/>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yq5HIL7oEem8QL0Ty-Eieg" sourceConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" text="DynamicArray - logic code for the Game of Life.&#xA;&#xA;@author: Zong Shi, Natsuki Hasegawa&#xA;@version: 1.0" item="_Yka_ub5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_yqzAgL7oEem8QL0Ty-Eieg"/>
   </nodes>
@@ -161,24 +171,389 @@
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ywW18L7oEem8QL0Ty-Eieg" sourceConnectionVisual="_ywk4YL7oEem8QL0Ty-Eieg" text="&#xA;&#x9; * This method is used to count how many live cells are near the input Cell. &#xA;&#x9; * @param c Cell object to check.&#xA;&#x9; * @return counter Total number of adjacent live cells.&#xA;&#x9; *" item="_YkbnE75HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_yqznlb7oEem8QL0Ty-Eieg"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Il3ewL7rEem8QL0Ty-Eieg" sourceConnectionVisual="_Il4F0L7rEem8QL0Ty-Eieg" text="@program DynamicArray&#xA;@description:&#xA;@author: Zong Shi&#xA;@create 2019-08-13 12:58" item="_Yl7bkL5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_IlxYIL7rEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_4pHikL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_4pIJoL-4EemXJIN-GWR4SQ" text="@program DynamicArray&#xA;@description:&#xA;@author: Zong Shi&#xA;@create 2019-08-13 12:58" item="_Yl7bkL5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-TEL-4EemXJIN-GWR4SQ"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cV43ML7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cV6sYL7sEem8QL0Ty-Eieg" text="User interface class showing employing JavaFX and fetching data from backend.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;@author Lock, Samuel; Bollineni Dharani,&#xD;&#xA;@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com&#xD;&#xA;@create 13Aug19" item="_YlpHsL5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVToYL7sEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_4qnXYL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_4q2A4L-4EemXJIN-GWR4SQ" text="&#xD;&#xA;&#x9; * Stylises buttons when used.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param butt - button object&#xD;&#xA;&#x9; * @param menu - menubox." item="_4q2n8L-4EemXJIN-GWR4SQ">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6Ib-4EemXJIN-GWR4SQ"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWNAQL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWQDkL7sEem8QL0Ty-Eieg" text="Launches JavaFX&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param args" item="_YlpHwb5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcb7sEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_4q5EML-4EemXJIN-GWR4SQ" sourceConnectionVisual="_4rUiAL-4EemXJIN-GWR4SQ" text="Restarts program on request. &#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param lifeGrid&#xD;&#xA;&#x9; * @param bottomPane&#xD;&#xA;&#x9; * @param mainStage" item="_4rWXML-4EemXJIN-GWR4SQ">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6JL-4EemXJIN-GWR4SQ"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cWX_YL7sEem8QL0Ty-Eieg" sourceConnectionVisual="_cWZNgL7sEem8QL0Ty-Eieg" text="Controls visual features of Menu Box, padding etc.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param menuBox&#xD;&#xA;&#x9; *            - passes HBox from inside stage." item="_jUFVML7oEem8QL0Ty-Eieg">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_cVUPcL7sEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_4rorEL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_4sFXAL-4EemXJIN-GWR4SQ" text="User interface class showing employing JavaFX and fetching data from backend.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;@author Lock, Samuel; Bollineni, Dharani; Hasegawa, Natsuki; Shi, Zong. &#xD;&#xA;@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com; hasenats@myvuw.ac.nz; shizong@myvuw@myvuw.ac.nz.&#xD;&#xA;@create 13Aug19&#xD;&#xA;@version: 1.0" item="_YlpHsL5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-TEb-4EemXJIN-GWR4SQ"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_RaN-YL7tEem8QL0Ty-Eieg" sourceConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_RaLiIL7tEem8QL0Ty-Eieg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_40FccL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_4024gL-4EemXJIN-GWR4SQ" text="Launches JavaFX&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param args" item="_YlpHwb5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6Jb-4EemXJIN-GWR4SQ"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_RaN-YL7tEem8QL0Ty-Eieg" targetConnectionVisual="_RaN-Yb7tEem8QL0Ty-Eieg" name="Main">
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5C0cAL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_5C2RML-4EemXJIN-GWR4SQ" text="Controls visual features of Menu Box, padding etc.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param menuBox&#xD;&#xA;&#x9; *            - passes HBox from inside stage." item="_jUFVML7oEem8QL0Ty-Eieg">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6IL-4EemXJIN-GWR4SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5DSWEL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_5D1IoL-4EemXJIN-GWR4SQ" text="Stage contains all the objects of a JavaFX application&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param mainStage : is stage object which is passed as an argument to the start() &#xD;&#xA;&#x9; * In start() we used differnt layouts like VBox, HBox,GridPane &#xD;&#xA;&#x9; * Different layouts has nodes like button and other layouts.&#xD;&#xA;&#x9; * lifeGrid is a GridPane is for displaying the cells&#xD;&#xA;&#x9; * bottomPane is a VBox that holds all the buttons and layouts&#xD;&#xA;&#x9; * secondPane is a HBox to hold menu and gridpane.&#xD;&#xA;&#x9; * menuBox is a VBox contains buttons&#xD;&#xA;&#x9; *  &#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; *" item="_YlpHx75HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-TEr-4EemXJIN-GWR4SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5EJ4wL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_5EblkL-4EemXJIN-GWR4SQ" text="Sets padding on object to ensure no side by sides.&#xD;&#xA;&#x9; * @param s" item="_YlpH075HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6Ir-4EemXJIN-GWR4SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5EuggL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_5FKlYL-4EemXJIN-GWR4SQ" text="Stylises gridpane, sets alignment.&#xD;&#xA;&#x9; * @param lifeGrid" item="_jUPGML7oEem8QL0Ty-Eieg">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_4n-6I7-4EemXJIN-GWR4SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6YAGQL-4EemXJIN-GWR4SQ" sourceConnectionVisual="_6YDJkL-4EemXJIN-GWR4SQ" text="Test code for the Game of Life - uses console to display the cells.&#xA;&#xA;@author Zong Shi, Natsuki Hasegawa&#xA; *" item="_Yl0t4L5HEemAFunI8rPp5w">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_6W9kcL-4EemXJIN-GWR4SQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlpHsL5HEemAFunI8rPp5w" comments="_4rorEL-4EemXJIN-GWR4SQ" targetConnectionVisual="_4sFXAL-4EemXJIN-GWR4SQ" name="UserInterface" associationsOut="_jUchkL7oEem8QL0Ty-Eieg">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_YQJY0L5HEemAFunI8rPp5w"/>
+    <visualProperties xmi:id="_YlpHsb5HEemAFunI8rPp5w" position="176.0,-9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YlpHsr5HEemAFunI8rPp5w" label="+"/>
+    <attributes xmi:id="_YlpHs75HEemAFunI8rPp5w" defaultValue="100" name="worldSpeed">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRYH4b5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_YlpHtL5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_YlpHtb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_YlpHtr5HEemAFunI8rPp5w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YlpHt75HEemAFunI8rPp5w" defaultValue="false" name="startStop">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRYu8L5HEemAFunI8rPp5w"/>
+      <stereotypes xmi:id="_YlpHuL5HEemAFunI8rPp5w" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRYu8r5HEemAFunI8rPp5w"/>
+      </stereotypes>
+      <visibility xmi:id="_YlpHub5HEemAFunI8rPp5w" label="-"/>
+      <cardinality xmi:id="_YlpHur5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_YlpHu75HEemAFunI8rPp5w" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jVXuoL7oEem8QL0Ty-Eieg" name="dy">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_jT6WEL7oEem8QL0Ty-Eieg"/>
+      <stereotypes xmi:id="_34joUL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34k2cL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34uncL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_5DOEoL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPadsL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPbEwL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPhycL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_jVXuor7oEem8QL0Ty-Eieg" label="-"/>
+      <cardinality xmi:id="_jVXuo77oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <type xmi:id="_jVXupL7oEem8QL0Ty-Eieg" name="DynamicArray">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YP1PwL5HEemAFunI8rPp5w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YlpHwb5HEemAFunI8rPp5w" comments="_40FccL-4EemXJIN-GWR4SQ" targetConnectionVisual="_4024gL-4EemXJIN-GWR4SQ" name="main" staticOperation="true">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YQLOAL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_YlpHwr5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_YlpHw75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YlpHxL5HEemAFunI8rPp5w" name="args">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YQLOAb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_YlpHxb5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_YlpHxr5HEemAFunI8rPp5w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YlpHx75HEemAFunI8rPp5w" comments="_5DSWEL-4EemXJIN-GWR4SQ" targetConnectionVisual="_5D1IoL-4EemXJIN-GWR4SQ" name="start">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRPlAL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_YlpHyL5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_YlpHyb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YlpHyr5HEemAFunI8rPp5w" name="mainStage">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRPlAb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_YlpHy75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_YlpHzL5HEemAFunI8rPp5w" name="Stage">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YRCwsb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YlpH075HEemAFunI8rPp5w" comments="_5EJ4wL-4EemXJIN-GWR4SQ" targetConnectionVisual="_5EblkL-4EemXJIN-GWR4SQ" name="createSecondLayer">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRQMEL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_YlpH1L5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_YlpH1b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YlpH1r5HEemAFunI8rPp5w" name="s">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRQMEb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_YlpH175HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_YlpH2L5HEemAFunI8rPp5w" name="HBox">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ8qEb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jUFVML7oEem8QL0Ty-Eieg" comments="_5C0cAL-4EemXJIN-GWR4SQ" targetConnectionVisual="_5C2RML-4EemXJIN-GWR4SQ" name="createMenu">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbIr7oEem8QL0Ty-Eieg"/>
+      <visibility xmi:id="_jUFVMb7oEem8QL0Ty-Eieg" label="+"/>
+      <cardinality xmi:id="_jUFVMr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jUFVM77oEem8QL0Ty-Eieg" name="menuBox">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbI77oEem8QL0Ty-Eieg"/>
+        <cardinality xmi:id="_jUFVNL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+        <type xmi:id="_jUFVNb7oEem8QL0Ty-Eieg" name="VBox">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ94Mb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jUPGML7oEem8QL0Ty-Eieg" comments="_5EuggL-4EemXJIN-GWR4SQ" targetConnectionVisual="_5FKlYL-4EemXJIN-GWR4SQ" name="createGridPane">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbJL7oEem8QL0Ty-Eieg"/>
+      <visibility xmi:id="_jUPGMb7oEem8QL0Ty-Eieg" label="+"/>
+      <cardinality xmi:id="_jUPGMr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jUPGM77oEem8QL0Ty-Eieg" name="lifeGrid">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbJb7oEem8QL0Ty-Eieg"/>
+        <cardinality xmi:id="_jUPGNL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+        <type xmi:id="_jUPGNb7oEem8QL0Ty-Eieg" name="GridPane">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ8DAL5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4q2n8L-4EemXJIN-GWR4SQ" comments="_4qnXYL-4EemXJIN-GWR4SQ" targetConnectionVisual="_4q2A4L-4EemXJIN-GWR4SQ" name="buttonStyle">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_4ncuoL-4EemXJIN-GWR4SQ"/>
+      <visibility xmi:id="_4q2n8b-4EemXJIN-GWR4SQ" label="+"/>
+      <cardinality xmi:id="_4q2n8r-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4q2n87-4EemXJIN-GWR4SQ" name="butt">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_4ndVsL-4EemXJIN-GWR4SQ"/>
+        <cardinality xmi:id="_4q2n9L-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+        <type xmi:id="_4q2n9b-4EemXJIN-GWR4SQ" name="Button">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ604b5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4q2n9r-4EemXJIN-GWR4SQ" name="menu">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_4ndVsb-4EemXJIN-GWR4SQ"/>
+        <cardinality xmi:id="_4q2n97-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+        <type xmi:id="_4q2n-L-4EemXJIN-GWR4SQ" name="VBox">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ94Mb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4rWXML-4EemXJIN-GWR4SQ" comments="_4q5EML-4EemXJIN-GWR4SQ" targetConnectionVisual="_4rUiAL-4EemXJIN-GWR4SQ" name="restart">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_4nd8wL-4EemXJIN-GWR4SQ"/>
+      <visibility xmi:id="_4rWXMb-4EemXJIN-GWR4SQ" label="+"/>
+      <cardinality xmi:id="_4rWXMr-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4rWXM7-4EemXJIN-GWR4SQ" name="lifeGrid">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_4nd8wb-4EemXJIN-GWR4SQ"/>
+        <cardinality xmi:id="_4rWXNL-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+        <type xmi:id="_4rWXNb-4EemXJIN-GWR4SQ" name="GridPane">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ8DAL5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4rWXNr-4EemXJIN-GWR4SQ" name="bottomPane">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_4nd8wr-4EemXJIN-GWR4SQ"/>
+        <cardinality xmi:id="_4rWXN7-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+        <type xmi:id="_4rWXOL-4EemXJIN-GWR4SQ" name="VBox">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ94Mb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4rWXOb-4EemXJIN-GWR4SQ" name="mainStage">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_4nd8w7-4EemXJIN-GWR4SQ"/>
+        <cardinality xmi:id="_4rWXOr-4EemXJIN-GWR4SQ" label="1" max="1" min="1"/>
+        <type xmi:id="_4rWXO7-4EemXJIN-GWR4SQ" name="Stage">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YRCwsb5HEemAFunI8rPp5w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl7bkL5HEemAFunI8rPp5w" comments="_4pHikL-4EemXJIN-GWR4SQ" targetConnectionVisual="_4pIJoL-4EemXJIN-GWR4SQ" name="Cell" associationsIn="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w" associationsOut="_q6Lj4L7oEem8QL0Ty-Eieg" generalizations="_Il7JIL7rEem8QL0Ty-Eieg">
+    <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
+    <visualProperties xmi:id="_Yl8CoL5HEemAFunI8rPp5w" position="800.0,297.0" size="387.0,322.0"/>
+    <visibility xmi:id="_Yl8Cob5HEemAFunI8rPp5w" label="+"/>
+    <attributes xmi:id="_Yl8Cor5HEemAFunI8rPp5w" name="x">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRSoUL5HEemAFunI8rPp5w"/>
+      <stereotypes xmi:id="_Yl8Co75HEemAFunI8rPp5w" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRTPYL5HEemAFunI8rPp5w"/>
+      </stereotypes>
+      <visibility xmi:id="_Yl8CpL5HEemAFunI8rPp5w" label="~"/>
+      <cardinality xmi:id="_Yl8Cpb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_Yl8Cpr5HEemAFunI8rPp5w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Yl8Cp75HEemAFunI8rPp5w" name="y">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRT2cL5HEemAFunI8rPp5w"/>
+      <stereotypes xmi:id="_Yl8CqL5HEemAFunI8rPp5w" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRT2cb5HEemAFunI8rPp5w"/>
+      </stereotypes>
+      <visibility xmi:id="_Yl8Cqb5HEemAFunI8rPp5w" label="~"/>
+      <cardinality xmi:id="_Yl8Cqr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_Yl8Cq75HEemAFunI8rPp5w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Yl8CrL5HEemAFunI8rPp5w" name="currentStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRUdgL5HEemAFunI8rPp5w"/>
+      <stereotypes xmi:id="_Yl8Crb5HEemAFunI8rPp5w" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRUdgb5HEemAFunI8rPp5w"/>
+      </stereotypes>
+      <visibility xmi:id="_Yl8Crr5HEemAFunI8rPp5w" label="~"/>
+      <cardinality xmi:id="_Yl8Cr75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_Yl8CsL5HEemAFunI8rPp5w" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Yl8Csb5HEemAFunI8rPp5w" name="nextStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YRVEkL5HEemAFunI8rPp5w"/>
+      <stereotypes xmi:id="_Yl8Csr5HEemAFunI8rPp5w" name="LegacyStyledElement">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRVEkb5HEemAFunI8rPp5w"/>
+      </stereotypes>
+      <visibility xmi:id="_Yl8Cs75HEemAFunI8rPp5w" label="~"/>
+      <cardinality xmi:id="_Yl8CtL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <type xmi:id="_Yl8Ctb5HEemAFunI8rPp5w" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q5_WoL7oEem8QL0Ty-Eieg" name="r">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_q5jRwL7oEem8QL0Ty-Eieg"/>
+      <stereotypes xmi:id="_34ldgL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34mroL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34tZUL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPbr0L_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPcS4L_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPgkUL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_q5_Wor7oEem8QL0Ty-Eieg" label="~"/>
+      <cardinality xmi:id="_q5_Wo77oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <type xmi:id="_q5_WpL7oEem8QL0Ty-Eieg" name="Rectangle">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YRAUcb5HEemAFunI8rPp5w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Yl8Ctr5HEemAFunI8rPp5w" name="Cell">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPq3sL5HEemAFunI8rPp5w"/>
+      <keywords xmi:id="_Yl8Ct75HEemAFunI8rPp5w" keyword="create"/>
+      <visibility xmi:id="_Yl8CuL5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8Cub5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yl8Cur5HEemAFunI8rPp5w">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPvJIL5HEemAFunI8rPp5w"/>
+        <type xmi:id="_Yl8Cu75HEemAFunI8rPp5w" name="Cell">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Yl8CvL5HEemAFunI8rPp5w" name="y">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewL5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8Cvb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8Cvr5HEemAFunI8rPp5w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Yl8Cv75HEemAFunI8rPp5w" name="x">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8CwL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8Cwb5HEemAFunI8rPp5w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Yl8Cwr5HEemAFunI8rPp5w" name="currentStatus">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewr5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8Cw75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8CxL5HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Yl8Cxb5HEemAFunI8rPp5w" name="nextStatus">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPsF0L5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8Cxr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8Cx75HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yl8CyL5HEemAFunI8rPp5w" name="getCurrentStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPvwML5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8Cyb5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8Cyr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yl8Cy75HEemAFunI8rPp5w">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQL5HEemAFunI8rPp5w"/>
+        <type xmi:id="_Yl8CzL5HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Yl8Czb5HEemAFunI8rPp5w" name="setCurrentStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQb5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8Czr5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8Cz75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl8C0L5HEemAFunI8rPp5w" name="currentStatus">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQr5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8C0b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8C0r5HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yl8C075HEemAFunI8rPp5w" name="getNextStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPw-UL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8C1L5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8C1b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yl8C1r5HEemAFunI8rPp5w">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPw-Ub5HEemAFunI8rPp5w"/>
+        <type xmi:id="_Yl8C175HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Yl8C2L5HEemAFunI8rPp5w" name="setNextStatus">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPxlYL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8C2b5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8C2r5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl8C275HEemAFunI8rPp5w" name="nextStatus">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPxlYb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8C3L5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8C3b5HEemAFunI8rPp5w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yl8C475HEemAFunI8rPp5w" name="setX">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPyMcb5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8C5L5HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8C5b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl8C5r5HEemAFunI8rPp5w" name="x">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPyMcr5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8C575HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8C6L5HEemAFunI8rPp5w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yl8C7r5HEemAFunI8rPp5w" name="setY">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_YPzakL5HEemAFunI8rPp5w"/>
+      <visibility xmi:id="_Yl8C775HEemAFunI8rPp5w" label="+"/>
+      <cardinality xmi:id="_Yl8C8L5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yl8C8b5HEemAFunI8rPp5w" name="y">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_YPzakb5HEemAFunI8rPp5w"/>
+        <cardinality xmi:id="_Yl8C8r5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
+        <type xmi:id="_Yl8C875HEemAFunI8rPp5w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q5tCwL7oEem8QL0Ty-Eieg" name="getXx">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQL7oEem8QL0Ty-Eieg"/>
+      <visibility xmi:id="_q5tCwb7oEem8QL0Ty-Eieg" label="+"/>
+      <cardinality xmi:id="_q5tCwr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5tCw77oEem8QL0Ty-Eieg">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_q5hckL7oEem8QL0Ty-Eieg"/>
+        <type xmi:id="_q5tCxL7oEem8QL0Ty-Eieg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q5uQ4L7oEem8QL0Ty-Eieg" name="getYy">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQb7oEem8QL0Ty-Eieg"/>
+      <visibility xmi:id="_q5uQ4b7oEem8QL0Ty-Eieg" label="+"/>
+      <cardinality xmi:id="_q5uQ4r7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5uQ477oEem8QL0Ty-Eieg">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_q5hckb7oEem8QL0Ty-Eieg"/>
+        <type xmi:id="_q5uQ5L7oEem8QL0Ty-Eieg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q5yiUL7oEem8QL0Ty-Eieg" name="getRect">
+      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQr7oEem8QL0Ty-Eieg"/>
+      <visibility xmi:id="_q5zJYL7oEem8QL0Ty-Eieg" label="+"/>
+      <cardinality xmi:id="_q5zJYb7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5zJYr7oEem8QL0Ty-Eieg">
+        <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQ77oEem8QL0Ty-Eieg"/>
+        <type xmi:id="_q5zJY77oEem8QL0Ty-Eieg" name="Rectangle">
+          <modelElement href="ConwaysGameOfLifeSL.uml#_YRAUcb5HEemAFunI8rPp5w"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl0t4L5HEemAFunI8rPp5w" comments="_6YAGQL-4EemXJIN-GWR4SQ" targetConnectionVisual="_6YDJkL-4EemXJIN-GWR4SQ" name="Main">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YQFHYL5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yl0t4b5HEemAFunI8rPp5w" position="497.0,185.0" size="193.0,133.0"/>
+    <visualProperties xmi:id="_Yl0t4b5HEemAFunI8rPp5w" position="749.0,61.0" size="225.0,109.0"/>
     <visibility xmi:id="_Yl0t4r5HEemAFunI8rPp5w" label="+"/>
     <operations xmi:id="_Yl0t475HEemAFunI8rPp5w" name="main" staticOperation="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YQG8kL5HEemAFunI8rPp5w"/>
@@ -207,7 +582,7 @@
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yka_ub5HEemAFunI8rPp5w" comments="_yq5HIL7oEem8QL0Ty-Eieg" targetConnectionVisual="_yq5uML7oEem8QL0Ty-Eieg" name="DynamicArray" associationsIn="_jUchkL7oEem8QL0Ty-Eieg" associationsOut="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w">
     <modelElement href="ConwaysGameOfLifeSL.uml#_YP1PwL5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yka_ur5HEemAFunI8rPp5w" position="105.0,68.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_Yka_ur5HEemAFunI8rPp5w" position="211.0,310.0" size="341.0,354.0"/>
     <visibility xmi:id="_Yka_u75HEemAFunI8rPp5w" label="+"/>
     <attributes xmi:id="_Yka_vL5HEemAFunI8rPp5w" defaultValue="10" name="num" staticAttribute="true">
       <modelElement href="ConwaysGameOfLifeSL.uml#_YRVroL5HEemAFunI8rPp5w"/>
@@ -236,6 +611,18 @@
       <stereotypes xmi:id="_LdtIMb7jEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_LdwLgL7jEem8QL0Ty-Eieg" name="Array"/>
       <stereotypes xmi:id="_LdwykL7jEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34bsgL-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34dhsL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34ev0L-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34fW4L-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34og0L-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34pH4L-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPU-IL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPWMQL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPWzUL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPXaYL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPdhAL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPdhAb_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
       <visibility xmi:id="_YkbmxL5HEemAFunI8rPp5w" label="~"/>
       <cardinality xmi:id="_Ykbmxb5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
       <type xmi:id="_Ykbmxr5HEemAFunI8rPp5w" name="Cell">
@@ -250,6 +637,18 @@
       <stereotypes xmi:id="_LdvkcL7jEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_LdxZoL7jEem8QL0Ty-Eieg" name="Array"/>
       <stereotypes xmi:id="_LdxZob7jEem8QL0Ty-Eieg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34f98L-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34hMEL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34hzIL-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34iaML-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_34q9EL-4EemXJIN-GWR4SQ" name="Array"/>
+      <stereotypes xmi:id="_34rkIL-4EemXJIN-GWR4SQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPYBcL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPYogL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPZPkL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPZ2oL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_CPeIEL_VEem-PMRjJuAHyA" name="Array"/>
+      <stereotypes xmi:id="_CPevIL_VEem-PMRjJuAHyA" name="LegacyStyledElement"/>
       <visibility xmi:id="_Ykbmyr5HEemAFunI8rPp5w" label="~"/>
       <cardinality xmi:id="_Ykbmy75HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
       <type xmi:id="_YkbmzL5HEemAFunI8rPp5w" name="Cell">
@@ -402,316 +801,6 @@
         <cardinality xmi:id="_YkbnGb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
         <type xmi:id="_YkbnGr5HEemAFunI8rPp5w" name="Cell">
           <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yl7bkL5HEemAFunI8rPp5w" comments="_Il3ewL7rEem8QL0Ty-Eieg" targetConnectionVisual="_Il4F0L7rEem8QL0Ty-Eieg" name="Cell" associationsIn="_YkZKgL5HEemAFunI8rPp5w _Yka_sL5HEemAFunI8rPp5w" associationsOut="_q6Lj4L7oEem8QL0Ty-Eieg" generalizations="_Il7JIL7rEem8QL0Ty-Eieg">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_Yl8CoL5HEemAFunI8rPp5w" position="491.0,-236.0" size="332.0,327.0"/>
-    <visibility xmi:id="_Yl8Cob5HEemAFunI8rPp5w" label="+"/>
-    <attributes xmi:id="_Yl8Cor5HEemAFunI8rPp5w" name="x">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRSoUL5HEemAFunI8rPp5w"/>
-      <stereotypes xmi:id="_Yl8Co75HEemAFunI8rPp5w" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRTPYL5HEemAFunI8rPp5w"/>
-      </stereotypes>
-      <visibility xmi:id="_Yl8CpL5HEemAFunI8rPp5w" label="~"/>
-      <cardinality xmi:id="_Yl8Cpb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_Yl8Cpr5HEemAFunI8rPp5w" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Yl8Cp75HEemAFunI8rPp5w" name="y">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRT2cL5HEemAFunI8rPp5w"/>
-      <stereotypes xmi:id="_Yl8CqL5HEemAFunI8rPp5w" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRT2cb5HEemAFunI8rPp5w"/>
-      </stereotypes>
-      <visibility xmi:id="_Yl8Cqb5HEemAFunI8rPp5w" label="~"/>
-      <cardinality xmi:id="_Yl8Cqr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_Yl8Cq75HEemAFunI8rPp5w" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Yl8CrL5HEemAFunI8rPp5w" name="currentStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRUdgL5HEemAFunI8rPp5w"/>
-      <stereotypes xmi:id="_Yl8Crb5HEemAFunI8rPp5w" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRUdgb5HEemAFunI8rPp5w"/>
-      </stereotypes>
-      <visibility xmi:id="_Yl8Crr5HEemAFunI8rPp5w" label="~"/>
-      <cardinality xmi:id="_Yl8Cr75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_Yl8CsL5HEemAFunI8rPp5w" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Yl8Csb5HEemAFunI8rPp5w" name="nextStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRVEkL5HEemAFunI8rPp5w"/>
-      <stereotypes xmi:id="_Yl8Csr5HEemAFunI8rPp5w" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRVEkb5HEemAFunI8rPp5w"/>
-      </stereotypes>
-      <visibility xmi:id="_Yl8Cs75HEemAFunI8rPp5w" label="~"/>
-      <cardinality xmi:id="_Yl8CtL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_Yl8Ctb5HEemAFunI8rPp5w" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_q5_WoL7oEem8QL0Ty-Eieg" name="r">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_q5jRwL7oEem8QL0Ty-Eieg"/>
-      <stereotypes xmi:id="_q5_Wob7oEem8QL0Ty-Eieg" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_q5j40L7oEem8QL0Ty-Eieg"/>
-      </stereotypes>
-      <visibility xmi:id="_q5_Wor7oEem8QL0Ty-Eieg" label="~"/>
-      <cardinality xmi:id="_q5_Wo77oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <type xmi:id="_q5_WpL7oEem8QL0Ty-Eieg" name="Rectangle">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRAUcb5HEemAFunI8rPp5w"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_Yl8Ctr5HEemAFunI8rPp5w" name="Cell">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPq3sL5HEemAFunI8rPp5w"/>
-      <keywords xmi:id="_Yl8Ct75HEemAFunI8rPp5w" keyword="create"/>
-      <visibility xmi:id="_Yl8CuL5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8Cub5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_Yl8Cur5HEemAFunI8rPp5w">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPvJIL5HEemAFunI8rPp5w"/>
-        <type xmi:id="_Yl8Cu75HEemAFunI8rPp5w" name="Cell">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YPi74L5HEemAFunI8rPp5w"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_Yl8CvL5HEemAFunI8rPp5w" name="y">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewL5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8Cvb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8Cvr5HEemAFunI8rPp5w" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_Yl8Cv75HEemAFunI8rPp5w" name="x">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8CwL5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8Cwb5HEemAFunI8rPp5w" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_Yl8Cwr5HEemAFunI8rPp5w" name="currentStatus">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPrewr5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8Cw75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8CxL5HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_Yl8Cxb5HEemAFunI8rPp5w" name="nextStatus">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPsF0L5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8Cxr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8Cx75HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yl8CyL5HEemAFunI8rPp5w" name="getCurrentStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPvwML5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8Cyb5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8Cyr5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_Yl8Cy75HEemAFunI8rPp5w">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQL5HEemAFunI8rPp5w"/>
-        <type xmi:id="_Yl8CzL5HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_Yl8Czb5HEemAFunI8rPp5w" name="setCurrentStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQb5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8Czr5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8Cz75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl8C0L5HEemAFunI8rPp5w" name="currentStatus">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPwXQr5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8C0b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8C0r5HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yl8C075HEemAFunI8rPp5w" name="getNextStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPw-UL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8C1L5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8C1b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_Yl8C1r5HEemAFunI8rPp5w">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPw-Ub5HEemAFunI8rPp5w"/>
-        <type xmi:id="_Yl8C175HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_Yl8C2L5HEemAFunI8rPp5w" name="setNextStatus">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPxlYL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8C2b5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8C2r5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl8C275HEemAFunI8rPp5w" name="nextStatus">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPxlYb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8C3L5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8C3b5HEemAFunI8rPp5w" name="boolean">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yl8C475HEemAFunI8rPp5w" name="setX">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPyMcb5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8C5L5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8C5b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl8C5r5HEemAFunI8rPp5w" name="x">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPyMcr5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8C575HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8C6L5HEemAFunI8rPp5w" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yl8C7r5HEemAFunI8rPp5w" name="setY">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YPzakL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_Yl8C775HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_Yl8C8L5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yl8C8b5HEemAFunI8rPp5w" name="y">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YPzakb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_Yl8C8r5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_Yl8C875HEemAFunI8rPp5w" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_q5tCwL7oEem8QL0Ty-Eieg" name="getXx">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQL7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_q5tCwb7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_q5tCwr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_q5tCw77oEem8QL0Ty-Eieg">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_q5hckL7oEem8QL0Ty-Eieg"/>
-        <type xmi:id="_q5tCxL7oEem8QL0Ty-Eieg" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_q5uQ4L7oEem8QL0Ty-Eieg" name="getYy">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQb7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_q5uQ4b7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_q5uQ4r7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_q5uQ477oEem8QL0Ty-Eieg">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_q5hckb7oEem8QL0Ty-Eieg"/>
-        <type xmi:id="_q5uQ5L7oEem8QL0Ty-Eieg" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_q5yiUL7oEem8QL0Ty-Eieg" name="getRect">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQr7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_q5zJYL7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_q5zJYb7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_q5zJYr7oEem8QL0Ty-Eieg">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_q5eZQ77oEem8QL0Ty-Eieg"/>
-        <type xmi:id="_q5zJY77oEem8QL0Ty-Eieg" name="Rectangle">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YRAUcb5HEemAFunI8rPp5w"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlpHsL5HEemAFunI8rPp5w" comments="_cV43ML7sEem8QL0Ty-Eieg" targetConnectionVisual="_cV6sYL7sEem8QL0Ty-Eieg" name="UserInterface" associationsOut="_jUchkL7oEem8QL0Ty-Eieg">
-    <modelElement href="ConwaysGameOfLifeSL.uml#_YQJY0L5HEemAFunI8rPp5w"/>
-    <visualProperties xmi:id="_YlpHsb5HEemAFunI8rPp5w" position="-61.0,-191.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_YlpHsr5HEemAFunI8rPp5w" label="+"/>
-    <attributes xmi:id="_YlpHs75HEemAFunI8rPp5w" defaultValue="100" name="worldSpeed">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRYH4b5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_YlpHtL5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_YlpHtb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_YlpHtr5HEemAFunI8rPp5w" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_YlpHt75HEemAFunI8rPp5w" defaultValue="false" name="startStop">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRYu8L5HEemAFunI8rPp5w"/>
-      <stereotypes xmi:id="_YlpHuL5HEemAFunI8rPp5w" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRYu8r5HEemAFunI8rPp5w"/>
-      </stereotypes>
-      <visibility xmi:id="_YlpHub5HEemAFunI8rPp5w" label="-"/>
-      <cardinality xmi:id="_YlpHur5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <type xmi:id="_YlpHu75HEemAFunI8rPp5w" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_jVXuoL7oEem8QL0Ty-Eieg" name="dy" staticAttribute="true">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_jT6WEL7oEem8QL0Ty-Eieg"/>
-      <stereotypes xmi:id="_jVXuob7oEem8QL0Ty-Eieg" name="LegacyStyledElement">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_jT69IL7oEem8QL0Ty-Eieg"/>
-      </stereotypes>
-      <visibility xmi:id="_jVXuor7oEem8QL0Ty-Eieg" label="-"/>
-      <cardinality xmi:id="_jVXuo77oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <type xmi:id="_jVXupL7oEem8QL0Ty-Eieg" name="DynamicArray">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YP1PwL5HEemAFunI8rPp5w"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_YlpHwb5HEemAFunI8rPp5w" comments="_cWNAQL7sEem8QL0Ty-Eieg" targetConnectionVisual="_cWQDkL7sEem8QL0Ty-Eieg" name="main" staticOperation="true">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YQLOAL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_YlpHwr5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_YlpHw75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_YlpHxL5HEemAFunI8rPp5w" name="args">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YQLOAb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_YlpHxb5HEemAFunI8rPp5w" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_YlpHxr5HEemAFunI8rPp5w" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_YlpHx75HEemAFunI8rPp5w" name="start">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRPlAL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_YlpHyL5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_YlpHyb5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_YlpHyr5HEemAFunI8rPp5w" name="mainStage">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRPlAb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_YlpHy75HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_YlpHzL5HEemAFunI8rPp5w" name="Stage">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YRCwsb5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_YlpH075HEemAFunI8rPp5w" name="createSecondLayer">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_YRQMEL5HEemAFunI8rPp5w"/>
-      <visibility xmi:id="_YlpH1L5HEemAFunI8rPp5w" label="+"/>
-      <cardinality xmi:id="_YlpH1b5HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-      <parameters xmi:id="_YlpH1r5HEemAFunI8rPp5w" name="s">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_YRQMEb5HEemAFunI8rPp5w"/>
-        <cardinality xmi:id="_YlpH175HEemAFunI8rPp5w" label="1" max="1" min="1"/>
-        <type xmi:id="_YlpH2L5HEemAFunI8rPp5w" name="HBox">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ8qEb5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_jUBq0L7oEem8QL0Ty-Eieg" name="reStart">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbIL7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_jUBq0b7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_jUBq0r7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <parameters xmi:id="_jUBq077oEem8QL0Ty-Eieg" name="mainStage">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbIb7oEem8QL0Ty-Eieg"/>
-        <cardinality xmi:id="_jUBq1L7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-        <type xmi:id="_jUBq1b7oEem8QL0Ty-Eieg" name="Stage">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YRCwsb5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_jUFVML7oEem8QL0Ty-Eieg" comments="_cWX_YL7sEem8QL0Ty-Eieg" targetConnectionVisual="_cWZNgL7sEem8QL0Ty-Eieg" name="createMenu">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbIr7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_jUFVMb7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_jUFVMr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <parameters xmi:id="_jUFVM77oEem8QL0Ty-Eieg" name="menuBox">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbI77oEem8QL0Ty-Eieg"/>
-        <cardinality xmi:id="_jUFVNL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-        <type xmi:id="_jUFVNb7oEem8QL0Ty-Eieg" name="VBox">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ94Mb5HEemAFunI8rPp5w"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_jUPGML7oEem8QL0Ty-Eieg" name="createGridPane">
-      <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbJL7oEem8QL0Ty-Eieg"/>
-      <visibility xmi:id="_jUPGMb7oEem8QL0Ty-Eieg" label="+"/>
-      <cardinality xmi:id="_jUPGMr7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-      <parameters xmi:id="_jUPGM77oEem8QL0Ty-Eieg" name="lifeGrid">
-        <modelElement href="ConwaysGameOfLifeSL.uml#_jTnbJb7oEem8QL0Ty-Eieg"/>
-        <cardinality xmi:id="_jUPGNL7oEem8QL0Ty-Eieg" label="1" max="1" min="1"/>
-        <type xmi:id="_jUPGNb7oEem8QL0Ty-Eieg" name="GridPane">
-          <modelElement href="ConwaysGameOfLifeSL.uml#_YQ8DAL5HEemAFunI8rPp5w"/>
         </type>
       </parameters>
     </operations>

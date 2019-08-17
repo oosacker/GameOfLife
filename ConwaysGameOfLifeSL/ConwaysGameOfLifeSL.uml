@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_YDO-ML5HEemAFunI8rPp5w" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_YDPlQL5HEemAFunI8rPp5w" source="codegen">
         <details xmi:id="_YDPlQb5HEemAFunI8rPp5w" key="codegenDirectory" value="/ConwaysGameOfLifeSL/src"/>
-        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;1292448608/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;1587127689/1;/ConwaysGameOfLifeSL/src/Main.java;1696334893/1;/ConwaysGameOfLifeSL/src/UserInterface.java;1290335171/1;"/>
+        <details xmi:id="_Yj3mEL5HEemAFunI8rPp5w" key="AssociatedSourceCode" value="/ConwaysGameOfLifeSL/src/Cell.java;2808429786/1;/ConwaysGameOfLifeSL/src/DynamicArray.java;1587127689/1;/ConwaysGameOfLifeSL/src/Main.java;1696334893/1;/ConwaysGameOfLifeSL/src/UserInterface.java;524622722/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5woL7jEem8QL0Ty-Eieg" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_MF5wob7jEem8QL0Ty-Eieg" source="com.yattasolutions.codegen.reverse">
@@ -47,7 +47,9 @@
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_YQuAkL5HEemAFunI8rPp5w" name="TimeUnit"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_YRNIwL5HEemAFunI8rPp5w" name="lang"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YRNIwL5HEemAFunI8rPp5w" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_4n5akL-4EemXJIN-GWR4SQ" name="Exception"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_YPOLwL5HEemAFunI8rPp5w" name="javafx">
       <packagedElement xmi:type="uml:Package" xmi:id="_YPOLwb5HEemAFunI8rPp5w" name="animation">
@@ -98,7 +100,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YPi74L5HEemAFunI8rPp5w" name="Cell">
-      <ownedComment xmi:id="_IlxYIL7rEem8QL0Ty-Eieg">
+      <ownedComment xmi:id="_4n-TEL-4EemXJIN-GWR4SQ">
         <body>@program DynamicArray
 @description:
 @author: Zong Shi
@@ -142,7 +144,6 @@
  r = new Rectangle();
  r.setHeight(10);
  r.setWidth(10);
-
  
   </body>
       </ownedBehavior>
@@ -220,7 +221,7 @@
         </ownedParameter>
         <language>java</language>
         <body>if (currentStatus == false) {
-		  r.setFill(Color.BURLYWOOD);
+		  r.setFill(Color.BLACK);
 		  return r;
 	  } else {
 		  r.setFill(Color.LIGHTBLUE);
@@ -729,7 +730,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YQFHYL5HEemAFunI8rPp5w" name="Main">
-      <ownedComment xmi:id="_RaLiIL7tEem8QL0Ty-Eieg">
+      <ownedComment xmi:id="_6W9kcL-4EemXJIN-GWR4SQ">
         <body>Test code for the Game of Life - uses console to display the cells.
 
 @author Zong Shi, Natsuki Hasegawa
@@ -782,7 +783,7 @@
 		}
 	</body>
       </ownedBehavior>
-      <ownedOperation xmi:id="_YQG8kL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRpNo75HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_YQG8kL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRpNo75HEemAFunI8rPp5w" raisedException="_4n5akL-4EemXJIN-GWR4SQ">
         <ownedParameter xmi:id="_YQG8kb5HEemAFunI8rPp5w" name="args">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQHjoL5HEemAFunI8rPp5w" value="*"/>
@@ -795,13 +796,14 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YQJY0L5HEemAFunI8rPp5w" name="UserInterface">
-      <ownedComment xmi:id="_cVToYL7sEem8QL0Ty-Eieg">
+      <ownedComment xmi:id="_4n-TEb-4EemXJIN-GWR4SQ">
         <body>User interface class showing employing JavaFX and fetching data from backend.&#xD;
 &#xD;
 &#xD;
-@author Lock, Samuel; Bollineni Dharani,&#xD;
-@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com&#xD;
-@create 13Aug19</body>
+@author Lock, Samuel; Bollineni, Dharani; Hasegawa, Natsuki; Shi, Zong. &#xD;
+@contact locksamu@myvuw.ac.nz;dharanich1985@gmail.com; hasenats@myvuw.ac.nz; shizong@myvuw@myvuw.ac.nz.&#xD;
+@create 13Aug19&#xD;
+@version: 1.0</body>
       </ownedComment>
       <generalization xmi:id="_YRRaML5HEemAFunI8rPp5w" general="_YQ1VUb5HEemAFunI8rPp5w"/>
       <ownedAttribute xmi:id="_YRYH4b5HEemAFunI8rPp5w" name="worldSpeed">
@@ -812,79 +814,67 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         <defaultValue xmi:type="uml:LiteralString" xmi:id="_YRYu8b5HEemAFunI8rPp5w" value="false"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_jT6WEL7oEem8QL0Ty-Eieg" name="dy" visibility="private" isStatic="true" type="_YP1PwL5HEemAFunI8rPp5w" association="_jT8yUL7oEem8QL0Ty-Eieg"/>
+      <ownedAttribute xmi:id="_jT6WEL7oEem8QL0Ty-Eieg" name="dy" visibility="private" type="_YP1PwL5HEemAFunI8rPp5w" association="_jT8yUL7oEem8QL0Ty-Eieg"/>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRpNpr5HEemAFunI8rPp5w" name="start" specification="_YRPlAL5HEemAFunI8rPp5w">
         <ownedParameter xmi:id="_YRpNp75HEemAFunI8rPp5w" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
         <language>java</language>
-        <body>// INITIAL ONSCREEN DISPLAY&#xD;
-		Text welcomeText = new Text(&quot;Conway's Game of Life&quot;); &#xD;
-		welcomeText.setStyle(&quot;-fx-font: 30 timesnewroman;&quot;);&#xD;
-		&#xD;
-		&#xD;
-		&#xD;
-		VBox menuBox = new VBox();&#xD;
-		createMenu(menuBox);&#xD;
-&#xD;
+        <body>VBox menuBox = new VBox();&#xD;
 		GridPane lifeGrid = new GridPane();&#xD;
-		createGridPane(lifeGrid);&#xD;
-&#xD;
 		VBox bottomPane = new VBox(); // CREAteS MAIN VERTICAL BOX&#xD;
+		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.&#xD;
+		&#xD;
+		// INITIAL ONSCREEN DISPLAY&#xD;
+		Text welcomeText = new Text(&quot;Conway's Game of Life&quot;); &#xD;
+		welcomeText.setStyle(&quot;-fx-font: 30 ariel;&quot;);&#xD;
+		createMenu(menuBox);		&#xD;
+		createGridPane(lifeGrid);&#xD;
+		createSecondLayer(secondPane);&#xD;
+		&#xD;
 		&#xD;
 		&#xD;
 		bottomPane.getChildren().add(welcomeText);&#xD;
-		bottomPane.setAlignment(Pos.CENTER);&#xD;
-		&#xD;
-		HBox secondPane = new HBox(); // Creates HBOX to hold menu and gridpane.&#xD;
-		//createSecondLayer(secondPane);&#xD;
+		bottomPane.setAlignment(Pos.CENTER);		&#xD;
 		secondPane.getChildren().add(menuBox); // ADDS MENU TO MAIN VERTICAL BOX&#xD;
 		secondPane.getChildren().add(lifeGrid); // Adds lifegrid to bottompane beneath menu box&#xD;
-		&#xD;
-		&#xD;
 		bottomPane.getChildren().add(secondPane);&#xD;
+		&#xD;
+		&#xD;
 		Scene mainScene = new Scene(bottomPane); // ADDS VBOX TO SCENE&#xD;
-		mainStage.setWidth(800);&#xD;
-		mainStage.setHeight(600);&#xD;
+		mainStage.setWidth(900);&#xD;
+		mainStage.setHeight(800);&#xD;
 &#xD;
 		mainStage.setScene(mainScene); // ADDS ENTIRE SCENE TO MAINSTAGE&#xD;
 &#xD;
 		// START MENU BUTTONS&#xD;
-		Button startBtn = new Button(&quot;Start&quot;);		&#xD;
+		Button startBtn = new Button(&quot;Start&quot;);&#xD;
+		buttonStyle(startBtn, menuBox);&#xD;
 		Button repeatBtn = new Button(&quot;Repeat Pattern&quot;);&#xD;
+		buttonStyle(repeatBtn, menuBox);&#xD;
 		Button toadBtn = new Button(&quot;Toad Pattern&quot;);&#xD;
-		Button beaconBtn = new Button(&quot;Beacon Pattern&quot;);&#xD;
-		Button spaceshipBtn = new Button(&quot;Spaceship Pattern&quot;);&#xD;
+		buttonStyle(toadBtn, menuBox);&#xD;
+		&#xD;
 		Button germBtn = new Button(&quot;Germs Pattern&quot;);&#xD;
+		buttonStyle(germBtn, menuBox);&#xD;
+		Button spaceshipBtn = new Button(&quot;Spaceship Pattern&quot;);&#xD;
+		buttonStyle(spaceshipBtn, menuBox);&#xD;
 		Button closeBtn = new Button(&quot;Close Program&quot;);&#xD;
+		buttonStyle(closeBtn, menuBox);&#xD;
 		&#xD;
-		Button clearBtn = new Button(&quot;Clear screen&quot;);&#xD;
 		&#xD;
-		closeBtn.setMinWidth(80);&#xD;
 		&#xD;
 		menuBox.getChildren().add(startBtn);&#xD;
 		menuBox.getChildren().add(repeatBtn);&#xD;
 		menuBox.getChildren().add(toadBtn);&#xD;
-		menuBox.getChildren().add(beaconBtn);&#xD;
-		menuBox.getChildren().add(spaceshipBtn);&#xD;
 		menuBox.getChildren().add(germBtn);&#xD;
+		menuBox.getChildren().add(spaceshipBtn);&#xD;
 		menuBox.getChildren().add(closeBtn);&#xD;
+		dy = new DynamicArray();   // creating the dynamicarray object&#xD;
 		&#xD;
 		&#xD;
-		&#xD;
-		menuBox.getChildren().add(clearBtn);&#xD;
-		&#xD;
-		clearBtn.setOnAction(e->{&#xD;
-			lifeGrid.getChildren().clear();&#xD;
-		});&#xD;
-		&#xD;
-		&#xD;
-		&#xD;
-		&#xD;
-		dy= new DynamicArray();&#xD;
 		// SETS SPEED OF ANIMATION update&#xD;
 		KeyFrame frame = new KeyFrame(Duration.millis(worldSpeed), new EventHandler&lt;ActionEvent>() {&#xD;
 &#xD;
 			public void handle(ActionEvent event) {&#xD;
-				&#xD;
 				lifeGrid.getChildren().clear();&#xD;
 				&#xD;
 				int maxSize = 68;&#xD;
@@ -893,21 +883,24 @@
 						}&#xD;
 			&#xD;
 				for(int i=0;i&lt;maxSize;i++)&#xD;
-				{	for(int j=0;j&lt;maxSize;j++)&#xD;
-					{	&#xD;
-						&#xD;
-					lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);&#xD;
-										&#xD;
+				{&#xD;
+					for(int j=0;j&lt;maxSize;j++)&#xD;
+					{&#xD;
+						// call the getRect() in the cell class and add it is add to the gridpane&#xD;
+						lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j); &#xD;
 					}&#xD;
-				}	&#xD;
-//				for(int i=0;i&lt;dy.getArr().length;i++)&#xD;
-//				{	for(int j=0;j&lt;dy.getArr().length;j++)&#xD;
-//					{	lifeGrid.add(dy.getArr()[i][j].getRect(), i ,j);&#xD;
-//										}&#xD;
-//				}	&#xD;
-				dy.extendsArray();&#xD;
-				dy.updateStatus();&#xD;
-				dy.swapArr();&#xD;
+				}&#xD;
+				dy.extendsArray();	 // helps to extend the array size if needed&#xD;
+				dy.updateStatus();   // update dynamic array to next generation&#xD;
+				dy.swapArr();		 // get the next generation array(updated array)&#xD;
+&#xD;
+&#xD;
+				if(dy.getNum() &lt; dy.getArr().length)&#xD;
+		        {&#xD;
+		            dy.shrinkArray();&#xD;
+		        }&#xD;
+				&#xD;
+				&#xD;
 &#xD;
 			}&#xD;
 		});&#xD;
@@ -923,18 +916,18 @@
 					tl.play();&#xD;
 					startStop = true;&#xD;
 					startBtn.setText(&quot;Pause&quot;);&#xD;
-					System.out.println(&quot;Click Start&quot;);&#xD;
+					&#xD;
 					lifeGrid.getChildren().removeAll();&#xD;
 				} else if (startStop == true) {&#xD;
 					tl.pause();&#xD;
 					startBtn.setText(&quot;Start&quot;);&#xD;
 					startStop = false;&#xD;
-					System.out.println(&quot;Click Pause&quot;);&#xD;
 				}&#xD;
 			}&#xD;
 &#xD;
 		});&#xD;
 		&#xD;
+		//Blinker patten&#xD;
 		repeatBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
 			public void handle(ActionEvent event) {&#xD;
 				dy.arrIni[3][4].setCurrentStatus(true);&#xD;
@@ -944,6 +937,7 @@
 &#xD;
 		});&#xD;
 		&#xD;
+		// Toad pattern&#xD;
 		toadBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
 			public void handle(ActionEvent event) {&#xD;
 				dy.arrIni[2][2].setCurrentStatus(true);&#xD;
@@ -958,19 +952,32 @@
 &#xD;
 		});&#xD;
 		&#xD;
-		beaconBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
+		// Grem pattern&#xD;
+		germBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
 			public void handle(ActionEvent event) {&#xD;
 &#xD;
-				dy.arrIni[3][3].setCurrentStatus(true);&#xD;
-				dy.arrIni[3][4].setCurrentStatus(true);&#xD;
-				dy.arrIni[4][3].setCurrentStatus(true);&#xD;
-				dy.arrIni[5][6].setCurrentStatus(true);&#xD;
-				dy.arrIni[6][5].setCurrentStatus(true);&#xD;
-				dy.arrIni[5][6].setCurrentStatus(true);&#xD;
+				dy.arrIni[3][1].setCurrentStatus(true);&#xD;
+             dy.arrIni[4][1].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][1].setCurrentStatus(true);    &#xD;
+             dy.arrIni[3][2].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][3].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][5].setCurrentStatus(true);&#xD;
+             dy.arrIni[4][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[6][4].setCurrentStatus(true);&#xD;
+             dy.arrIni[5][6].setCurrentStatus(true);&#xD;
+             dy.arrIni[1][7].setCurrentStatus(true);&#xD;
+             dy.arrIni[2][7].setCurrentStatus(true);&#xD;
+             dy.arrIni[3][7].setCurrentStatus(true);&#xD;
+&#xD;
+&#xD;
 			}&#xD;
 &#xD;
 		});&#xD;
 		&#xD;
+		&#xD;
+		//SpaceShip Pattern &#xD;
 		spaceshipBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
 			public void handle(ActionEvent event) {&#xD;
 		&#xD;
@@ -992,66 +999,11 @@
 &#xD;
 		});&#xD;
 		&#xD;
-		germBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
-			public void handle(ActionEvent event) {&#xD;
-		&#xD;
-				dy.arrIni[3][1].setCurrentStatus(true);&#xD;
-             dy.arrIni[4][1].setCurrentStatus(true);&#xD;
-             dy.arrIni[5][1].setCurrentStatus(true);    &#xD;
-             dy.arrIni[3][2].setCurrentStatus(true);&#xD;
-             dy.arrIni[2][3].setCurrentStatus(true);&#xD;
-             dy.arrIni[2][4].setCurrentStatus(true);&#xD;
-             dy.arrIni[2][5].setCurrentStatus(true);&#xD;
-             dy.arrIni[4][4].setCurrentStatus(true);&#xD;
-             dy.arrIni[5][4].setCurrentStatus(true);&#xD;
-             dy.arrIni[6][4].setCurrentStatus(true);&#xD;
-             dy.arrIni[5][6].setCurrentStatus(true);&#xD;
-             dy.arrIni[1][7].setCurrentStatus(true);&#xD;
-             dy.arrIni[2][7].setCurrentStatus(true);&#xD;
-             dy.arrIni[3][7].setCurrentStatus(true);&#xD;
-&#xD;
-			}&#xD;
-&#xD;
-		});&#xD;
-		&#xD;
 		closeBtn.setOnAction(new EventHandler&lt;ActionEvent>() {&#xD;
 			public void handle(ActionEvent event) {&#xD;
-				&#xD;
-				&#xD;
-//				for(int i=0;i &lt; dy.getArr().length;i++)&#xD;
-//				{&#xD;
-//					for(int j=0;j&lt;dy.getArr().length;j++)&#xD;
-//					{&#xD;
-//						&#xD;
-//						&#xD;
-//							dy.arrIni[i][j] = null;&#xD;
-//						&#xD;
-//					}&#xD;
-//				}&#xD;
-				&#xD;
-				lifeGrid.getChildren().removeAll();&#xD;
-				dy=null;&#xD;
-				bottomPane.getChildren().clear();&#xD;
+			&#xD;
 				mainStage.close();&#xD;
-			    Platform.runLater( () -> {&#xD;
-					try {&#xD;
-						new UserInterface().start( new Stage() );&#xD;
-					} catch (Exception e) {&#xD;
-						// TODO Auto-generated catch block&#xD;
-						e.printStackTrace();&#xD;
-					}&#xD;
-				} );&#xD;
-//				mainScene.getClass().clo&#xD;
-//				&#xD;
-//				mainStage.close();&#xD;
-//				&#xD;
-//				try {&#xD;
-//					reStart(mainStage);&#xD;
-//				} catch (Exception e) {&#xD;
-//					// TODO Auto-generated catch block&#xD;
-//					e.printStackTrace();&#xD;
-//				}&#xD;
-//				dy = new DynamicArray();				 &#xD;
+&#xD;
 			}&#xD;
 &#xD;
 		});&#xD;
@@ -1075,12 +1027,6 @@
         <body>launch(args);&#xD;
 	</body>
       </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT7kML7oEem8QL0Ty-Eieg" name="reStart" specification="_jTnbIL7oEem8QL0Ty-Eieg">
-        <ownedParameter xmi:id="_jT7kMb7oEem8QL0Ty-Eieg" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
-        <language>java</language>
-        <body>start(mainStage);&#xD;
-	</body>
-      </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT7kMr7oEem8QL0Ty-Eieg" name="createMenu" specification="_jTnbIr7oEem8QL0Ty-Eieg">
         <ownedParameter xmi:id="_jT7kM77oEem8QL0Ty-Eieg" name="menuBox" type="_YQ94Mb5HEemAFunI8rPp5w"/>
         <language>java</language>
@@ -1088,10 +1034,9 @@
 		menuBox.setSpacing(20);&#xD;
 		menuBox.prefHeight(700);&#xD;
 		menuBox.setMinHeight(700);&#xD;
+		menuBox.setMinWidth(80);&#xD;
+		menuBox.prefWidth(80);&#xD;
 		menuBox.setPadding(new Insets (10));&#xD;
-		&#xD;
-&#xD;
-		// TODO SET SPACING PADDING, BUTTON WIDTH&#xD;
 	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jT8LQL7oEem8QL0Ty-Eieg" name="createGridPane" specification="_jTnbJL7oEem8QL0Ty-Eieg">
@@ -1102,8 +1047,35 @@
 		&#xD;
 	</body>
       </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4n9E8L-4EemXJIN-GWR4SQ" name="buttonStyle" specification="_4ncuoL-4EemXJIN-GWR4SQ">
+        <ownedParameter xmi:id="_4n9E8b-4EemXJIN-GWR4SQ" name="butt" type="_YQ604b5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4n9E8r-4EemXJIN-GWR4SQ" name="menu" type="_YQ94Mb5HEemAFunI8rPp5w"/>
+        <language>java</language>
+        <body>butt.setPrefWidth(100);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4n9E87-4EemXJIN-GWR4SQ" name="restart" specification="_4nd8wL-4EemXJIN-GWR4SQ">
+        <ownedParameter xmi:id="_4n9E9L-4EemXJIN-GWR4SQ" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4n9E9b-4EemXJIN-GWR4SQ" name="bottomPane" type="_YQ94Mb5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4n9E9r-4EemXJIN-GWR4SQ" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
+        <language>java</language>
+        <body>lifeGrid.getChildren().removeAll();&#xD;
+     &#xD;
+             &#xD;
+             bottomPane.getChildren().clear();&#xD;
+             mainStage.close();&#xD;
+             Platform.runLater( () -> {&#xD;
+                 try {&#xD;
+                     new UserInterface().start( new Stage() );&#xD;
+                 } catch (Exception e) {&#xD;
+                     // TODO Auto-generated catch block&#xD;
+                     e.printStackTrace();&#xD;
+                 }&#xD;
+             } );&#xD;
+	</body>
+      </ownedBehavior>
       <ownedOperation xmi:id="_YQLOAL5HEemAFunI8rPp5w" name="main" isStatic="true" method="_YRqbwL5HEemAFunI8rPp5w">
-        <ownedComment xmi:id="_cVUPcb7sEem8QL0Ty-Eieg">
+        <ownedComment xmi:id="_4n-6Jb-4EemXJIN-GWR4SQ">
           <body>Launches JavaFX&#xD;
 	 * &#xD;
 	 * @param args</body>
@@ -1113,17 +1085,32 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQLOAr5HEemAFunI8rPp5w" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_YRPlAL5HEemAFunI8rPp5w" name="start" method="_YRpNpr5HEemAFunI8rPp5w">
+      <ownedOperation xmi:id="_YRPlAL5HEemAFunI8rPp5w" name="start" method="_YRpNpr5HEemAFunI8rPp5w" raisedException="_4n5akL-4EemXJIN-GWR4SQ">
+        <ownedComment xmi:id="_4n-TEr-4EemXJIN-GWR4SQ">
+          <body>Stage contains all the objects of a JavaFX application&#xD;
+	 * &#xD;
+	 * @param mainStage : is stage object which is passed as an argument to the start() &#xD;
+	 * In start() we used differnt layouts like VBox, HBox,GridPane &#xD;
+	 * Different layouts has nodes like button and other layouts.&#xD;
+	 * lifeGrid is a GridPane is for displaying the cells&#xD;
+	 * bottomPane is a VBox that holds all the buttons and layouts&#xD;
+	 * secondPane is a HBox to hold menu and gridpane.&#xD;
+	 * menuBox is a VBox contains buttons&#xD;
+	 *  &#xD;
+	 * &#xD;
+	 *</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YRPlAb5HEemAFunI8rPp5w" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
       </ownedOperation>
       <ownedOperation xmi:id="_YRQMEL5HEemAFunI8rPp5w" name="createSecondLayer" method="_YRp0sr5HEemAFunI8rPp5w">
+        <ownedComment xmi:id="_4n-6Ir-4EemXJIN-GWR4SQ">
+          <body>Sets padding on object to ensure no side by sides.&#xD;
+	 * @param s</body>
+        </ownedComment>
         <ownedParameter xmi:id="_YRQMEb5HEemAFunI8rPp5w" name="s" type="_YQ8qEb5HEemAFunI8rPp5w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_jTnbIL7oEem8QL0Ty-Eieg" name="reStart" method="_jT7kML7oEem8QL0Ty-Eieg">
-        <ownedParameter xmi:id="_jTnbIb7oEem8QL0Ty-Eieg" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
-      </ownedOperation>
       <ownedOperation xmi:id="_jTnbIr7oEem8QL0Ty-Eieg" name="createMenu" method="_jT7kMr7oEem8QL0Ty-Eieg">
-        <ownedComment xmi:id="_cVUPcL7sEem8QL0Ty-Eieg">
+        <ownedComment xmi:id="_4n-6IL-4EemXJIN-GWR4SQ">
           <body>Controls visual features of Menu Box, padding etc.&#xD;
 	 * &#xD;
 	 * @param menuBox&#xD;
@@ -1132,7 +1119,34 @@
         <ownedParameter xmi:id="_jTnbI77oEem8QL0Ty-Eieg" name="menuBox" type="_YQ94Mb5HEemAFunI8rPp5w"/>
       </ownedOperation>
       <ownedOperation xmi:id="_jTnbJL7oEem8QL0Ty-Eieg" name="createGridPane" method="_jT8LQL7oEem8QL0Ty-Eieg">
+        <ownedComment xmi:id="_4n-6I7-4EemXJIN-GWR4SQ">
+          <body>Stylises gridpane, sets alignment.&#xD;
+	 * @param lifeGrid</body>
+        </ownedComment>
         <ownedParameter xmi:id="_jTnbJb7oEem8QL0Ty-Eieg" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4ncuoL-4EemXJIN-GWR4SQ" name="buttonStyle" method="_4n9E8L-4EemXJIN-GWR4SQ">
+        <ownedComment xmi:id="_4n-6Ib-4EemXJIN-GWR4SQ">
+          <body>&#xD;
+	 * Stylises buttons when used.&#xD;
+	 * &#xD;
+	 * @param butt - button object&#xD;
+	 * @param menu - menubox.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_4ndVsL-4EemXJIN-GWR4SQ" name="butt" type="_YQ604b5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4ndVsb-4EemXJIN-GWR4SQ" name="menu" type="_YQ94Mb5HEemAFunI8rPp5w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4nd8wL-4EemXJIN-GWR4SQ" name="restart" method="_4n9E87-4EemXJIN-GWR4SQ">
+        <ownedComment xmi:id="_4n-6JL-4EemXJIN-GWR4SQ">
+          <body>Restarts program on request. &#xD;
+	 * &#xD;
+	 * @param lifeGrid&#xD;
+	 * @param bottomPane&#xD;
+	 * @param mainStage</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_4nd8wb-4EemXJIN-GWR4SQ" name="lifeGrid" type="_YQ8DAL5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4nd8wr-4EemXJIN-GWR4SQ" name="bottomPane" type="_YQ94Mb5HEemAFunI8rPp5w"/>
+        <ownedParameter xmi:id="_4nd8w7-4EemXJIN-GWR4SQ" name="mainStage" type="_YRCwsb5HEemAFunI8rPp5w"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_YRwiYL5HEemAFunI8rPp5w" name="" memberEnd="_YRwiYb5HEemAFunI8rPp5w _YRW5wb5HEemAFunI8rPp5w">
@@ -1201,4 +1215,5 @@
   <UMLLabProfile:Reference xmi:id="_jT-AcL7oEem8QL0Ty-Eieg" base_Element="_jT8yUL7oEem8QL0Ty-Eieg"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_q5j40L7oEem8QL0Ty-Eieg" base_Element="_q5jRwL7oEem8QL0Ty-Eieg"/>
   <UMLLabProfile:Reference xmi:id="_q5njML7oEem8QL0Ty-Eieg" base_Element="_q5m8IL7oEem8QL0Ty-Eieg"/>
+  <UMLLabProfile:Reference xmi:id="_4n6osL-4EemXJIN-GWR4SQ" base_Element="_4n5akL-4EemXJIN-GWR4SQ"/>
 </xmi:XMI>
